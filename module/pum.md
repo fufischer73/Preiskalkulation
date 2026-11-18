@@ -5,13 +5,13 @@ review: entwurf
 datei: pum.html
 meilenstein: true
 lernziele:
-  - einen Sonderauftrag mit Teilkostenrechnung und Preisuntergrenzen beurteilen,
-  - Zahlen und betriebswirtschaftliche Nebenwirkungen abwägen,
-  - eine begründete Empfehlung für die Geschäftsführung schreiben.
+  - einen Sonderauftrag beurteilen und dafür selbst die passenden Kennzahlen auswählen und berechnen,
+  - Zahlen und betriebswirtschaftliche Nebenwirkungen gegeneinander abwägen,
+  - zu einem begründeten Urteil kommen und es schriftlich darstellen.
 quellen: [q-modell]
 abgabe:
-  titel: Empfehlung an die Geschäftsführung hochladen
-  text: "Lade deine Empfehlung (höchstens zwei Seiten) als Textdokument hoch. Speichere sie als **.docx**, **.odt** oder **.pdf**. Eine Datei genügt."
+  titel: Beurteilung hochladen
+  text: "Lade deine Beurteilung (höchstens zwei Seiten) als Textdokument hoch. Speichere sie als **.docx**, **.odt** oder **.pdf**. Eine Datei genügt."
   punkte: 100
   dateitypen: .docx,.odt,.pdf
   dateien: 1
@@ -25,16 +25,16 @@ raster:
   - kriterium: Abwägung
     erreicht: "Du nennst Argumente dafür und dagegen, auch betriebswirtschaftliche Nebenwirkungen (z. B. Preisimage, Händler, Liquidität, Kapazität)."
     besonders_gut: "Du gewichtest die Argumente und zeigst, welche am stärksten wiegen."
-  - kriterium: Begründete Empfehlung
-    erreicht: "Du sprichst eine klare Empfehlung aus, und deine Argumente stützen sie."
+  - kriterium: Begründetes Urteil
+    erreicht: "Du kommst zu einem klaren Urteil (annehmen, ablehnen oder unter Bedingungen annehmen), und deine Argumente stützen es."
     besonders_gut: "Du schlägst Bedingungen oder ein Gegenangebot vor und begründest sie."
-  - kriterium: Form und Sprache
-    erreicht: "Dein Text ist verständlich gegliedert und verwendet Fachbegriffe richtig."
+  - kriterium: Aufbau und Sprache
+    erreicht: "Dein Text beginnt mit einem einleitenden Satz, der die Ausgangslage nennt, ist verständlich gegliedert und verwendet Fachbegriffe richtig."
     besonders_gut: "Dein Text liest sich wie ein Papier für die Geschäftsführung: kurz, klar, ohne Umwege."
 ---
 ## 1. Dein Auftrag im Überblick
 
-In diesem Meilenstein arbeitest du allein und bringst alles zusammen: Preisuntergrenzen, Deckungsbeitrag, Teilkostenrechnung und die Frage, was neben den Zahlen noch zählt. Du schreibst eine **Empfehlung an die Geschäftsführung**.
+In diesem Meilenstein arbeitest du allein. Du nutzt, was du in diesem Lernpfad gelernt hast, und **beurteilst** eine Anfrage der Montelli GmbH. Dein Text geht an die Geschäftsführung.
 
 ## 2. Ausgangssituation und Fallakte: Eigenmarken-Anfrage der Nordkap Sport GmbH
 
@@ -47,7 +47,7 @@ Die **Nordkap Sport GmbH**, eine Handelskette, schickt der Montelli GmbH diese A
 
 **Merle Dahl** (Verkauf): „Das ist viel Menge für den ruhigen Winter. Aber der Preis liegt weit unter allem, was wir sonst verlangen.“
 
-**Tobias Brandt** (Controlling): „Ich habe die Zahlen für dich zusammengestellt. Die Entscheidung liegt bei der Geschäftsführung. Sie will eine begründete Empfehlung.“
+**Tobias Brandt** (Controlling): „Ich habe dir die Zahlen der Fallakte zusammengestellt. Die Entscheidung liegt bei der Geschäftsführung. Sie möchte vorher eine begründete Beurteilung.“
 :::
 
 :::kasten Fallakte: Zahlen der Montelli GmbH
@@ -67,27 +67,24 @@ Die **Nordkap Sport GmbH**, eine Handelskette, schickt der Montelli GmbH diese A
 
 ## 3. Deine Aufgabe: Beurteile die Anfrage
 
-:::aufgabe pflicht 100 Empfehlung an die Geschäftsführung
-**Beurteile**, ob die Montelli GmbH die Anfrage der Nordkap Sport GmbH annehmen sollte. Schreibe dazu eine **begründete Empfehlung an die Geschäftsführung** (höchstens zwei Seiten).
+:::aufgabe pflicht 100 Beurteilung der Anfrage
+**Beurteile**, ob die Montelli GmbH die Anfrage der Nordkap Sport GmbH annehmen sollte. Begründe dein Urteil. Schreibe höchstens zwei Seiten.
 
-Deine Empfehlung muss ohne Rückfragen verständlich sein. Die Geschäftsführung soll am Ende wissen, **was sie tun soll und warum**.
+Beginne mit einem **einleitenden Satz**. Die Geschäftsführung soll am Ende wissen, **wie du die Anfrage beurteilst und warum**.
 
 :::checkliste Das gehört in dein Dokument
-- Eine klare Empfehlung (annehmen, ablehnen oder annehmen unter Bedingungen).
-- Eine nachvollziehbare Rechnung als Grundlage. Zeige, wie du auf deine Zahlen kommst.
-- Eine Einordnung des Preises mithilfe der Preisuntergrenzen.
-- Argumente dafür und dagegen, auch über die Zahlen hinaus.
-- Eine Begründung, warum deine Empfehlung am Ende überzeugt.
+- Ein einleitender Satz, der die Ausgangslage nennt.
+- Argumente für und gegen die Annahme der Anfrage.
+- Eine Begründung, welche Argumente am schwersten wiegen.
+- Ein klares Urteil mit Begründung.
 :::
 
 :::hilfe 🧭 Gliederungshilfe
-1. **Empfehlung** in einem Satz.
-2. **Zahlengrundlage:** Was bringt der Auftrag je Stück und insgesamt? Was ändert sich am Jahresergebnis?
-3. **Preisuntergrenzen:** Wo liegt der Preis von 99,00 € im Vergleich zu den Untergrenzen?
-4. **Abwägung:** Was spricht dafür, was dagegen? Was wiegt am schwersten?
-5. **Entscheidung und Bedingungen:** Was empfiehlst du am Ende? Gibt es ein Gegenangebot?
+1. **Einleitender Satz:** Worum geht es?
+2. **Beurteilung:** Welche Kriterien sind wichtig? Was spricht dafür, was dagegen? Begründe jeweils.
+3. **Gewichtung:** Was wiegt am schwersten?
+4. **Urteil:** Wie lautet dein Urteil, und warum?
 :::
-
 :::
 
 ## 4. Bewertung und Abgabe

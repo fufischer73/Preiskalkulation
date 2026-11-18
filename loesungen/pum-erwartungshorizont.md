@@ -3,6 +3,8 @@ titel: "Erwartungshorizont (Lehrkraft) · Meilenstein: Eigenmarken-Anfrage beurt
 ---
 Diese Datei ist **nur für die Lehrkraft**. Sie nennt die Rechengrundlage, die erwartbaren Argumente und Hinweise zur Bewertung. Die Bewertung selbst läuft über das Raster der Abgabe in Moodle.
 
+**Wichtig:** Die Aufgabe nennt keine Rechenschritte. Die Schüler:innen müssen von sich aus erkennen, dass sie Kennzahlen berechnen müssen (Deckungsbeitrag, Ergebnis des Auftrags, Preisuntergrenzen). Wer ganz ohne Zahlen argumentiert, erfüllt die Kriterien „Zahlengrundlage“ und „Preisuntergrenzen“ nicht.
+
 ## Zahlengrundlage
 
 | Größe | Rechnung | Ergebnis |
@@ -48,13 +50,13 @@ Hinweis: Wer den Stickrahmen zu den Sondereinzelkosten zählt (Auftragsfixkosten
 - Zahlungsziel 60 Tage ohne Skonto belastet die Liquidität.
 - Abhängigkeit von einem Großkunden, mögliche Forderung nach Dauerpreis.
 
-## Mögliche Entscheidungen (alle vertretbar bei guter Begründung)
+## Mögliche Urteile (alle vertretbar bei guter Begründung)
 
 1. **Annahme unter Bedingungen:** z. B. Gegenangebot über 105,00 € bis 110,00 €, Eigenmarke mit klar anderem Design, einmaliger Auftrag ohne Preisbindung für Folgeaufträge, Anzahlung oder kürzeres Zahlungsziel.
 2. **Annahme zum angebotenen Preis** mit Begründung über Deckungsbeitrag und freie Kapazität, Risiken benannt und eingeordnet.
 3. **Ablehnung** mit Begründung über Preisimage, Kannibalisierung, Liquidität. Dann muss sie die Zahlen ehrlich nennen (positiver Deckungsbeitrag) und erklären, warum der Nachteil überwiegt.
 
-Nicht ausreichend: eine Entscheidung nur mit Bauchgefühl, nur mit Vollkostenrechnung („Selbstkosten sind höher als 99,00 €, also ablehnen“) oder ohne Bezug zu den Preisuntergrenzen.
+Nicht ausreichend: ein Urteil nur mit Bauchgefühl, nur mit Vollkostenrechnung („Selbstkosten sind höher als 99,00 €, also ablehnen“) oder ohne Bezug zu den Preisuntergrenzen.
 
 ## Hinweise zur Bewertung (Raster)
 
@@ -63,5 +65,5 @@ Nicht ausreichend: eine Entscheidung nur mit Bauchgefühl, nur mit Vollkostenrec
 | Zahlengrundlage | Stückdeckungsbeitrag 20,50 € und Gesamtbeitrag richtig, einmalige Kosten berücksichtigt | Ergebnis mit/ohne Auftrag gegenübergestellt (244.000 € / 292.400 €) |
 | Preisuntergrenzen | kurz- und langfristige Untergrenze richtig und Preis eingeordnet | liquiditätsorientierte Untergrenze und Wirkung der Auslastung (128,03 € → 112,23 €) |
 | Abwägung | Pro und Contra, mindestens eine Nebenwirkung | Gewichtung der Argumente |
-| Begründete Empfehlung | klare Entscheidung, Argumente tragen sie | Bedingungen oder Gegenangebot |
-| Form und Sprache | gegliedert, Fachbegriffe richtig | Papier für die Geschäftsführung (kurz, klar) |
+| Begründetes Urteil | klares Urteil, Argumente tragen es | Bedingungen oder Gegenangebot |
+| Aufbau und Sprache | einleitender Satz zur Ausgangslage, gegliedert, Fachbegriffe richtig | Papier für die Geschäftsführung (kurz, klar) |
