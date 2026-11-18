@@ -75,4 +75,5 @@ moodle:
   einstufung: false
   startseite: false
   struktur: stufen-unterabschnitte
+  seitenleiste: abschnitt
   raster_punkte: [0, 2, 3]
