@@ -1,0 +1,12 @@
+- id: q-arbeitsbuch
+  titel: Arbeitsbuch Lernsituationen 7, 8, 13, 14, 15 (Westermann, von der Lehrkraft bereitgestellt) samt Lösungsheften
+  art: fachliteratur
+  lizenz: "© Westermann Gruppe – nur als Vorlage für Aufgabentypen, Reihenfolge der Arbeitsaufträge und Lösungswege; Texte, Fälle und Zahlen sind eigene"
+  status: zu_pruefen
+  belegt: Aufgabenstruktur, Begriffe (Preisuntergrenzen, Teilkostenrechnung), Rechenwege; alle Zahlen sind selbst gerechnet (docs/rechenprobe-stufe1.py)
+- id: q-modell
+  titel: Modellunternehmen Montelli GmbH (Übergabe-Dokumentation der Lehrkraft)
+  art: eigene
+  status: verifiziert
+  geprueft_am: 2026-11-18
+  belegt: Montelli GmbH, Rucksack „Business Deluxe“, Fixkosten 350.000 €, variable Stückkosten 75 €, Preis 165 € (netto), Absatz 6.600 Stück

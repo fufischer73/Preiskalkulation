@@ -1,0 +1,78 @@
+# Kursbeschreibung – Preiskalkulation (BGW24a, Jahrgang 13, Absatzprozesse › Preispolitik)
+# Aufbau und alle Felder: referenzen/schema.md im Lernpfad-Baukasten
+
+titel: Preiskalkulation – Preisuntergrenzen bestimmen
+kurzname: preiskalkulation
+ueberschrift: Preisuntergrenzen bestimmen – mit der Montelli GmbH
+untertitel: Bis wohin darf ein Unternehmen seinen Preis senken, und wann lohnt sich ein Auftrag trotz niedrigem Preis? Du entscheidest als Mitarbeiter:in der Montelli GmbH – und wiederholst dafür Kalkulation, Kostenarten und Deckungsbeitrag.
+badges: [Absatzprozesse, Preispolitik, 3 Stufen · ca. 17 Std.]
+fusszeile: BBZ Rendsburg-Eckernförde · BGW24a · Stand 11/2026
+logo: material/logo-bbz.png
+design: bbz-blau
+sprache: de
+anrede: du
+notizfrage: "Was nimmst du aus diesem Modul mit? Was ist dir noch unklar?"
+
+einleitung: |
+  :::notiz 👉 Bevor du startest
+  1. **Stufe 1 ist der Kern:** Du bestimmst Preisuntergrenzen und beurteilst am Ende einen Sonderauftrag der Montelli GmbH (★ Meilenstein, Abgabe in Moodle).
+  2. **Stufe 2 ist dein Nachschlagewerk:** Zuschlagskalkulation, fixe und variable Kosten, Deckungsbeitrag. Öffne ein Modul, sobald dir etwas aus Stufe 1 unklar ist. Alle Module sind von Anfang an offen.
+  3. **Stufe 3 ist neu:** Handelskalkulation. Sie öffnet, wenn du den Meilenstein abgegeben hast.
+  4. **Basis** ist Pflicht, **Plus** ist für alle, die mehr wollen. Mit den **Hilfen** kommst du Schritt für Schritt zum Ergebnis, die Lösungen gibt deine Lehrkraft frei.
+  5. Zu jeder Ausgangssituation kannst du **Aufgaben und Infos als PDF** herunterladen und auf Papier rechnen.
+  :::
+
+selbstcheck:
+  fragen:
+    - frage: Kannst du mit der Zuschlagskalkulation Selbstkosten berechnen?
+      antworten: [Noch nicht, Mit Hilfe, Sicher]
+    - frage: Kannst du fixe und variable Kosten trennen und Stückkosten berechnen?
+      antworten: [Noch nicht, Mit Hilfe, Sicher]
+    - frage: Kannst du Deckungsbeitrag und Gewinnschwelle berechnen?
+      antworten: [Noch nicht, Mit Hilfe, Sicher]
+  empfehlung:
+    - {bis: 3, stufe: wiederholung, hinweis: Starte mit Stufe 2 und arbeite dich dann zu Stufe 1 vor.}
+    - {stufe: kern, hinweis: Starte mit Stufe 1. Bei Unsicherheiten schlägst du in Stufe 2 nach.}
+
+stufen:
+  - id: kern
+    name: "Kern: Preisuntergrenzen"
+    icon: "🎯"
+    text: Kurzfristige, mittelfristige und langfristige Preisuntergrenze – und die Frage, wann sich ein Auftrag unter Vollkosten lohnt.
+    reihenfolge: nacheinander
+    module: [pu1, pu2, pum]
+  - id: wiederholung
+    name: "Wiederholung: Kosten und Kalkulation"
+    icon: "🔁"
+    text: Zuschlagskalkulation, fixe und variable Kosten, Deckungsbeitrag und Break-even – zum Nachschlagen und Üben.
+    freischaltung: offen
+    reihenfolge: frei
+    module: [zk1, zk2, zk3, fv1, db1]
+  - id: handel
+    name: "Neu: Handelskalkulation"
+    icon: "🛒"
+    text: Vorwärts-, Rückwärts- und Differenzkalkulation für Handelswaren.
+    freischaltung: meilenstein
+    nach: kern
+    reihenfolge: nacheinander
+    module: [hk1, hk2]
+
+pdf:
+  kopf: [Absatzprozesse, Preispolitik]
+  links: BGW24a
+  rechts: BRC
+  logo: material/logo-bbz.png
+
+loesungen:
+  titel: Lösungen
+  text: Die Lösungen sind verborgen. Deine Lehrkraft schaltet sie nach und nach frei.
+  sichtbar: false
+
+moodle:
+  version: 4.5
+  freischaltung: offen
+  reihenfolge: nacheinander
+  einstufung: false
+  startseite: false
+  struktur: stufen-unterabschnitte
+  raster_punkte: [0, 2, 3]
