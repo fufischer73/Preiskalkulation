@@ -9,15 +9,15 @@ Deckungsbeitrag und Break-even) und als neues Thema die Handelskalkulation. Ziel
 | Stufe | Module | Zeit (Basis) | Zugang in Moodle |
 | --- | --- | --- | --- |
 | 🎯 Kern: Preisuntergrenzen | `pu1`, `pu2`, `pum` ★ | 390 min | nacheinander, Meilenstein am Ende |
-| 🔁 Wiederholung | `zk1`, `zk2`, `zk3`, `fv1`, `db1` | 255 min | von Anfang an offen, freie Reihenfolge |
+| 🔁 Wiederholung | `zk1`, `zk2`, `zk3`, `fv1`, `db1` | 345 min | von Anfang an offen, freie Reihenfolge |
 | 🛒 Neu: Handelskalkulation | `hk1`, `hk2` | 130 min | nach dem Meilenstein |
 
-Stand: **Stufe 1 ist geschrieben (alle Module noch `review: entwurf`)**, die Module der Stufen 2 und 3 sind Platzhalter.
+Stand: **Stufe 1 und Stufe 2 sind geschrieben (alle Module noch `review: entwurf`)**, die Module der Stufe 3 (`hk1`, `hk2`) sind Platzhalter. Basis-Zeit insgesamt: 865 min (ca. 19 Unterrichtsstunden), ohne Plus-Aufgaben.
 
 ## Ordner
 
 - `kurs.yaml` Kursbeschreibung · `module/` Module · `loesungen/` Lösungen (nur als PDF in Moodle, verborgen)
-- `quellen.yaml` Quellen · `material/` Logo · `docs/rechenprobe-stufe1.py` Rechenprobe aller Zahlen der Stufe 1
+- `quellen.yaml` Quellen · `material/` Logo · `docs/rechenprobe-stufe1.py`, `docs/rechenprobe_stufe2.py` Rechenproben aller Zahlen der Stufen 1 und 2
 - `ausgabe/` wird erzeugt (nicht im Repo)
 
 ## Bauen
@@ -29,6 +29,7 @@ Erkunden-Grafik, Datei-Aktivität und das Design `bbz-blau` entstanden):
 python3 <skill>/skripte/pruefen.py .
 python3 <skill>/skripte/alles.py . --entwuerfe     # Testkurs mit Entwürfen
 python3 docs/rechenprobe-stufe1.py                 # alle Zahlen gegenrechnen
+python3 docs/rechenprobe_stufe2.py
 ```
 
 Nur Module mit `review: freigegeben` kommen in den Moodle-Kurs für die Klasse. Freigeben kann nur die Lehrkraft.
