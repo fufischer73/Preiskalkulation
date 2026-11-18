@@ -37,7 +37,7 @@ kurzcheck:
 Zum Üben und Nachschlagen. Den Deckungsbeitrag brauchst du bei jeder Preisuntergrenze und beim Meilenstein.
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Ab wann wird Gewinn gemacht?
 
 :::situation Ausgangssituation: Ab wann wird Gewinn gemacht?
 Nachdem **Jonas Albers** (Fertigung) verstanden hat, dass weniger Produktion wegen der fixen Kosten nicht immer sinnvoll ist (siehe [Fixe und variable Kosten](modul:fv1)), wendet er sich an **Tobias Brandt** aus dem Controlling.
@@ -49,7 +49,15 @@ Nachdem **Jonas Albers** (Fertigung) verstanden hat, dass weniger Produktion weg
 **Jonas Albers:** „Deckungsbeitrag? Break-even-Point? Was bedeutet das?“
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–4: Deckungsbeitrag, Gewinnschwelle und Diagramme
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Für Aufgabe 2 gibt es das Blatt „Deckungsbeitrag“, für die mehrstufige Rechnung die Blätter „Mehrstufige DB“. Die Datei enthält alle Schemata dieses Lernpfads.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 10 Aufgabe 1 · Deckungsbeitrag und Gewinnschwelle
 Erläutere den Zusammenhang zwischen dem Deckungsbeitrag und der Gewinnschwelle.
@@ -88,6 +96,15 @@ Stückdeckungsbeitrag = Verkaufspreis − variable Stückkosten (db = e − kv).
 :::hilfe 🧮 Tipp zu c)
 Setze Erlös und Gesamtkosten gleich: e · x = Kf + kv · x. Umgestellt: x = Kf : db.
 :::
+
+:::rechenfeld Aufgabe 2 · Trage deine Ergebnisse ein
+a) Stückdeckungsbeitrag | 36,00 | €
+b) Ergebnis bei 150 Stück (Verlust mit Minus) | −600 | €
+b) Ergebnis bei 200 Stück | 1.200 | €
+b) Ergebnis bei 250 Stück | 3.000 | €
+c) Gewinnschwelle (zwei Nachkommastellen) | 166,67 | Stück
+c) ab dieser Stückzahl entsteht Gewinn | 167 | Stück
+:::
 :::
 
 :::aufgabe basis 15 Aufgabe 3 · Das Gesamtdiagramm
@@ -97,12 +114,16 @@ Skizziere den Verlauf der **Gesamterlöse (E)**, der **gesamten fixen Kosten (Kf
 Diagramm: Erlöse und Kosten
 :::
 
-Zum Abgleich kannst du hier Menge und Preis verändern. Achte darauf, wo sich Erlös- und Kostenlinie schneiden:
+Zum Abgleich: Verändere **Preis**, **Menge**, **fixe Kosten** und **variable Stückkosten**. Achte darauf, wo sich Erlös- und Kostenlinie schneiden und wie sich die Gewinnschwelle verschiebt.
 
 :::diagramm breakeven
 titel: Fjord 500: Erlöse und Kosten
 fix: 6000
+fix_min: 3000
+fix_max: 9000
 var: 63
+var_min: 40
+var_max: 90
 kapazitaet: 500
 preis: 99
 preis_min: 70
@@ -123,15 +144,21 @@ Zum Abgleich:
 :::diagramm stueckkosten
 titel: Fjord 500: Stückerlös und Stückkosten
 fix: 6000
+fix_min: 3000
+fix_max: 9000
 var: 63
+var_min: 40
+var_max: 90
 kapazitaet: 500
 preis: 99
+preis_min: 70
+preis_max: 130
 menge_min: 50
 menge: 250
 :::
 :::
 
-## 3. Infos
+## 3. Info 1–3: Deckungsbeitrag, Gewinnschwelle, mehrstufige Rechnung
 
 :::info Info 1 · Der Deckungsbeitrag
 Liegt der Verkaufspreis (e) über den variablen Stückkosten (kv), trägt die Differenz zur Deckung der fixen Kosten bei. Diese Differenz heißt **Stückdeckungsbeitrag (db)**. Er trägt mit jedem verkauften Stück zur Deckung der ohnehin anfallenden fixen Kosten bei.
@@ -180,7 +207,7 @@ Aus dem Schema ergeben sich mehrere Deckungsbeiträge:
 So erkennst du, ob ein **Produkt**, eine **Gruppe** oder ein **Bereich** die ihm zurechenbaren Fixkosten deckt. Ein Produkt kann für sich wirtschaftlich sein, sein Bereich insgesamt aber nicht.
 :::
 
-## 4. Übung
+## 4. Übung: Deckungsbeitrag und Gewinnschwelle berechnen
 
 :::aufgabe basis 20 Übung 1 · Der Rucksack „Executive“
 Die Montelli GmbH produzierte im vergangenen Monat **400 Rucksäcke „Executive“**. Das ist die volle Kapazität. Die variablen Kosten betrugen **96,00 € je Stück**, die fixen Kosten **38.000,00 €**. Der Listenverkaufspreis je Rucksack beträgt **215,00 €**.
@@ -195,6 +222,15 @@ d) Wegen Absatzschwierigkeiten gewährt Montelli einen Sonderrabatt von **20 %**
 
 :::rechenraum 14
 Rechenraum zu Übung 1
+:::
+
+:::rechenfeld Übung 1 · Trage deine Ergebnisse ein
+a) Stückdeckungsbeitrag | 119,00 | €
+b) möglicher Gewinn | 9.600 | €
+c) Gewinnschwelle (aufgerundet) | 320 | Stück
+d) Stückdeckungsbeitrag nach Rabatt | 76,00 | €
+d) Ergebnis bei 400 Stück (mit Minus) | −7.600 | €
+d) Gewinnschwelle | 500 | Stück
 :::
 :::
 
@@ -212,9 +248,20 @@ d) Durch Rationalisierungsmaßnahmen sinken die variablen Kosten um **10 %** und
 :::rechenraum 14
 Rechenraum zu Übung 2
 :::
+
+:::rechenfeld Übung 2 · Trage deine Ergebnisse ein
+a) Stückdeckungsbeitrag | 27,00 | €
+b) Gewinnschwelle (aufgerundet) | 115 | Stück
+c) Gesamtdeckungsbeitrag | 6.750 | €
+c) Gesamtgewinn | 3.650 | €
+d) Stückdeckungsbeitrag | 29,50 | €
+d) Gewinnschwelle (aufgerundet) | 90 | Stück
+d) Gesamtdeckungsbeitrag | 7.375 | €
+d) Gesamtgewinn | 4.740 | €
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Monatsdaten, Kapazität, Typen und mehrstufige Rechnung
 
 :::aufgabe plus 25 Plus 1 · Kosten und Erlöse aus drei Monaten
 Die Montelli GmbH kann monatlich höchstens **1.400 Stifttaschen** herstellen. Im ersten Quartal ergaben sich bei proportional verlaufenden variablen Kosten diese Daten:
@@ -234,6 +281,15 @@ Rechenraum zu Plus 1
 :::hilfe 💡 Tipp
 Die Kostenunterschiede zwischen den Monaten entstehen nur durch die variablen Kosten. Aus zwei Monaten findest du die variablen Stückkosten, dann die fixen Kosten.
 :::
+
+:::rechenfeld Plus 1 · Trage deine Ergebnisse ein
+a) variable Stückkosten | 18,00 | €
+b) Gesamtfixkosten je Monat | 21.000 | €
+c) Erlös je Stück | 36,00 | €
+d) Deckungsbeitrag je Stück | 18,00 | €
+e) Break-even-Point (aufgerundet) | 1.167 | Stück
+f) maximaler Gewinn | 4.200 | €
+:::
 :::
 
 :::aufgabe plus 25 Plus 2 · Die Schlüsselanhänger-Linie
@@ -249,6 +305,14 @@ d) Montelli könnte weitere **6.000 Schlüsselanhänger** im Ausland für **3,20
 
 :::rechenraum 14
 Rechenraum zu Plus 2
+:::
+
+:::rechenfeld Plus 2 · Trage deine Ergebnisse ein
+a) Gewinnschwelle | 16.320 | Stück
+b) Auslastung an der Gewinnschwelle | 80 | %
+c) Ergebnis bei 70 % (mit Minus) | −2.754 | €
+d) neuer Gesamtgewinn (mit Minus) | −1.754 | €
+d) neue Kapazitätsauslastung (zwei Nachkommastellen) | 99,41 | %
 :::
 :::
 
@@ -271,6 +335,13 @@ c) Diskutiere die Ergebnisse. Sollte Montelli Typ A oder Typ B aus dem Programm 
 :::rechenraum 12
 Rechenraum zu Plus 3
 :::
+
+:::rechenfeld Plus 3 · Trage deine Ergebnisse ein
+a) Betriebsergebnis | 17.100 | €
+b) Stückdeckungsbeitrag Typ A | 6,00 | €
+b) Stückdeckungsbeitrag Typ B | 9,00 | €
+b) Stückdeckungsbeitrag Typ C | 36,00 | €
+:::
 :::
 
 :::aufgabe plus 25 Plus 4 · Mehrstufig: Rucksäcke, Taschen, Zubehör
@@ -288,6 +359,12 @@ Die Montelli GmbH hat drei Erzeugnisgruppen mit fünf Erzeugnissen. Führe die *
 :::rechenraum 14
 Mehrstufige Rechnung
 :::
+
+:::rechenfeld Plus 4 · Trage ausgewählte Ergebnisse ein
+Deckungsbeitrag II von B2 (mit Minus) | −5.700 | €
+Deckungsbeitrag III der Gruppe II (mit Minus) | −650 | €
+Erfolg | 50.610 | €
+:::
 :::
 
 :::aufgabe plus 25 Plus 5 · Mehrstufig: Fachhandel und Online
@@ -303,6 +380,12 @@ Die Montelli GmbH verkauft fünf Erzeugnisse (P1 bis P5) über zwei Vertriebsber
 
 :::rechenraum 14
 Mehrstufige Rechnung
+:::
+
+:::rechenfeld Plus 5 · Trage ausgewählte Ergebnisse ein
+Deckungsbeitrag IV Fachhandel | 244.500 | €
+Deckungsbeitrag IV Online | 41.000 | €
+Erfolg | 260.500 | €
 :::
 :::
 

@@ -4,7 +4,6 @@ minuten: 50
 review: entwurf
 datei: zk1.html
 lernziele:
-  - Kostenträgerzeitrechnung und Kostenträgerstückrechnung unterscheiden,
   - mit der Zuschlagskalkulation Selbstkosten und Listenverkaufspreis berechnen,
   - Skonto und Rabatt „im Hundert“ richtig anwenden.
 quellen: [q-arbeitsbuch, q-modell]
@@ -24,20 +23,12 @@ kurzcheck:
     richtig: 1
     richtig_text: "Genau: Verwaltungs- und Vertriebsgemeinkosten beziehen sich auf die Herstellkosten (Materialkosten + Fertigungskosten)."
     falsch_text: "Die Selbstkosten ergeben sich erst, nachdem die Verwaltungs- und Vertriebsgemeinkosten addiert sind. Als Basis dienen die Herstellkosten."
-  - frage: "Was unterscheidet die Kostenträgerstückrechnung von der Kostenträgerzeitrechnung?"
-    antworten:
-      - "Die Stückrechnung kalkuliert die Selbstkosten eines Produkts oder Auftrags, die Zeitrechnung erfasst die Kosten aller Produkte in einem Abrechnungszeitraum."
-      - "Die Stückrechnung gilt nur für Handelswaren, die Zeitrechnung nur für Eigenerzeugnisse."
-      - "Es gibt keinen Unterschied, beide nutzen dasselbe Schema für denselben Zeitraum."
-    richtig: 1
-    richtig_text: "Genau: Zeitrechnung = alle Kosten einer Periode (z. B. Monat), Stückrechnung = Kosten für ein Produkt oder einen Auftrag."
-    falsch_text: "Denke an die Fragen dahinter: Die Zeitrechnung fragt „Was haben wir im Monat gebraucht?“, die Stückrechnung „Was kostet dieser Auftrag?“."
 ---
 :::tipp Wiederholungsmodul
 Diese Aufgaben dienen zum Üben und Nachschlagen. Du brauchst sie für [Preisuntergrenzen II](modul:pu2), wenn du Selbstkosten kalkulierst.
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Angebot für die Hanseatische Bürodienst KG
 
 :::situation Ausgangssituation: Ein Angebot kalkulieren
 Die **Hanseatische Bürodienst KG** aus Lübeck möchte ihren Mitarbeitenden zum Jahresende einen Rucksack schenken. Sie fragt bei der Montelli GmbH **40 Rucksäcke „Business Deluxe“** an und bittet um ein aussagekräftiges Angebot.
@@ -47,17 +38,17 @@ Die **Hanseatische Bürodienst KG** aus Lübeck möchte ihren Mitarbeitenden zum
 **Tobias Brandt** (Controlling): „Eine Kostenträgerzeitrechnung kennst du schon. Jetzt geht es um die Stückrechnung für einen bestimmten Auftrag.“
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–3: Ein Angebot kalkulieren
 
-:::aufgabe basis 5 Aufgabe 1 · Zeit- und Stückrechnung
-Unterscheide zwischen einer **Kostenträgerzeitrechnung** und einer **Kostenträgerstückrechnung**.
-
-:::hilfe 💡 Tipp
-Frage dich: Für welchen Zeitraum bzw. für welchen Gegenstand wird gerechnet? Hilfe: Info 1 unten.
-:::
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Alle Kalkulationsschemata dieses Lernpfads. Für diese Aufgaben: Blatt „Zuschlagskalk. pu2+zk1“ (Spalten „zk1“) und „Zwei Fertigungsstufen“ für Plus 1.
 :::
 
-:::aufgabe basis 5 Aufgabe 2 · Welche Kosten zählen?
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
+
+:::aufgabe basis 5 Aufgabe 1 · Welche Kosten zählen?
 Begründe, welche Kosten die Montelli GmbH für das Angebot berücksichtigen muss.
 
 :::hilfe 💡 Tipp
@@ -65,7 +56,7 @@ Denke an die beiden großen Kostengruppen: Kosten, die dem Produkt direkt zugere
 :::
 :::
 
-:::aufgabe basis 15 Aufgabe 3 · Den Angebotspreis berechnen
+:::aufgabe basis 15 Aufgabe 2 · Den Angebotspreis berechnen
 Berechne den **Angebotspreis (Listenverkaufspreis)** je Stück und für 40 Stück. Runde die Zeilen je Stück auf Cent.
 
 | Angabe | Wert |
@@ -89,9 +80,19 @@ Material: MEK + MGK = MK. Fertigung: FEK + FGK = FK. Herstellkosten = MK + FK. D
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Materialkosten 25,20 €, Herstellkosten 108,00 €, Selbstkosten 124,20 €, Barverkaufspreis 149,04 €.
 :::
+
+:::rechenfeld Aufgabe 2 · Trage deine Ergebnisse ein (je Stück, auf Cent gerundet)
+Materialkosten (MK) | 25,20 | €
+Fertigungskosten (FK) | 82,80 | €
+Herstellkosten | 108,00 | €
+Selbstkosten | 124,20 | €
+Barverkaufspreis | 149,04 | €
+Listenverkaufspreis je Stück | 165,30 | €
+Listenverkaufspreis für 40 Stück | 6.612,00 | €
+:::
 :::
 
-:::aufgabe basis 10 Aufgabe 4 · Die Werte erläutern
+:::aufgabe basis 10 Aufgabe 3 · Die Werte erläutern
 Erläutere die berechneten Werte: Was sagen die **Selbstkosten**, der **Barverkaufspreis** und der **Listenverkaufspreis** aus?
 
 :::rechenraum 4
@@ -99,7 +100,7 @@ Deine Erläuterung
 :::
 :::
 
-## 3. Info: Die Zuschlagskalkulation
+## 3. Info 1: Die Zuschlagskalkulation
 
 :::info Info 1 · Zuschlagskalkulation
 **Zeit- und Stückrechnung.** Die **Kostenträgerzeitrechnung** zeigt, welche Kosten für alle Produkte in einem Abrechnungszeitraum (meist ein Monat) angefallen sind. Die **Kostenträgerstückrechnung** (Kalkulation) berechnet die Selbstkosten für **ein Produkt oder einen Auftrag**, um daraus einen Preis abzuleiten.
@@ -130,7 +131,7 @@ Deine Erläuterung
 **Der Gewinnzuschlag** ist die Prämie für das unternehmerische Risiko. Er wird auf die Selbstkosten gerechnet.
 :::
 
-## 4. Übung
+## 4. Übung: Die Sporttasche „Match“
 
 :::aufgabe basis 15 Übung · Die Sporttasche „Match“
 Die Montelli GmbH kalkuliert den Listenverkaufspreis für die neue **Sporttasche „Match“**. Vervollständige das Kalkulationsschema.
@@ -150,9 +151,17 @@ Die Montelli GmbH kalkuliert den Listenverkaufspreis für die neue **Sporttasche
 :::rechenraum 14
 Kalkulationsschema „Match“
 :::
+
+:::rechenfeld Übung · Trage deine Ergebnisse ein
+Materialkosten | 19,67 | €
+Herstellkosten | 47,27 | €
+Selbstkosten | 52,33 | €
+Barverkaufspreis | 68,03 | €
+Listenverkaufspreis | 73,07 | €
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Zwei Fertigungsstufen und Serienfertigung
 
 :::aufgabe plus 20 Plus 1 · Messe-Rucksack mit zwei Fertigungsstufen
 Die Montelli GmbH kalkuliert einen neuen **Messe-Rucksack**. Berechne den Listenverkaufspreis. Runde die Zeilen auf Cent.
@@ -172,6 +181,11 @@ Rechenraum zu Plus 1
 :::hilfe 💡 Tipp
 Rechne die Lohnkosten aus Minuten: Zeit in Minuten · Stundensatz : 60. Beide Fertigungsstufen haben eigene Gemeinkosten, beide gehören zu den Fertigungskosten.
 :::
+
+:::rechenfeld Plus 1 · Trage deine Ergebnisse ein
+Selbstkosten | 106,33 | €
+Listenverkaufspreis | 135,02 | €
+:::
 :::
 
 :::aufgabe plus 20 Plus 2 · Serienfertigung und Gewinn
@@ -183,6 +197,12 @@ b) Berechne, mit wie viel **Prozent Gewinn** Montelli kalkuliert, wenn der Verka
 
 :::rechenraum 10
 Rechenraum zu Plus 2
+:::
+
+:::rechenfeld Plus 2 · Trage deine Ergebnisse ein
+a) Herstellkosten je Rucksack | 87,36 | €
+a) Selbstkosten je Rucksack | 100,46 | €
+b) Gewinn in % der Selbstkosten (zwei Nachkommastellen) | 17,46 | %
 :::
 :::
 

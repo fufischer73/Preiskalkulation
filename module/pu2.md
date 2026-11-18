@@ -37,7 +37,7 @@ kurzcheck:
     richtig_text: "Richtig: 30,00 € + 4.000 € : 500 Stück = 38,00 €."
     falsch_text: "Variable Stückkosten plus die ausgabenwirksamen fixen Kosten je Stück (Fixkosten : Menge)."
 ---
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Zusatzauftrag der Nordlicht Versicherung AG
 
 :::situation Ausgangssituation: Unausgelastete Kapazitäten – sollen wir den Zusatzauftrag annehmen?
 Auf dem Abteilungsleitermeeting der Montelli GmbH wird diese Anfrage besprochen:
@@ -58,7 +58,15 @@ Auf dem Abteilungsleitermeeting der Montelli GmbH wird diese Anfrage besprochen:
 **Jonas Albers** (Fertigung): „Im Januar und Februar ist unsere Fertigung nicht ausgelastet. Den Auftrag könnte ich gut gebrauchen, um die Fixkosten zu decken.“
 :::
 
-## 2. Aufgaben: Auf Vollkostenbasis entscheiden
+## 2. Aufgaben 1–4: Den Auftrag auf Vollkostenbasis beurteilen
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Alle Kalkulationsschemata dieses Lernpfads. Für die Aufgaben 2 und 5: Blatt „Zuschlagskalk. pu2+zk1“ und Blatt „Teilkostenrechnung“.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 10 Aufgabe 1 · Die Anfrage zusammenfassen
 Fasse die wichtigsten Informationen aus der Ausgangssituation in eigenen Worten zusammen.
@@ -93,6 +101,14 @@ Das Schema kennst du aus der Zuschlagskalkulation: MEK + MGK = Materialkosten, F
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Materialkosten 25,20 €, Fertigungskosten 87,30 €, Herstellkosten 112,50 €.
 :::
+
+:::rechenfeld Aufgabe 2 · Trage deine Ergebnisse ein (je Stück, auf Cent gerundet)
+Materialkosten (MK) | 25,20 | €
+Fertigungskosten (FK) | 87,30 | €
+Herstellkosten | 112,50 | €
+Selbstkosten je Stück | 131,18 | €
+Selbstkosten für 300 Stück | 39.354,00 | €
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 3 · Gewinn oder Verlust?
@@ -100,6 +116,11 @@ Berechne den **Gewinn bzw. Verlust**, wenn der Auftrag zu **118,00 € je Stück
 
 :::rechenraum 5
 Rechenraum zu Aufgabe 3
+:::
+
+:::rechenfeld Aufgabe 3 · Trage deine Ergebnisse ein
+Ergebnis je Stück (Verlust mit Minus) | −13,18 | €
+Ergebnis für 300 Stück (Verlust mit Minus) | −3.954,00 | €
 :::
 :::
 
@@ -111,7 +132,7 @@ Deine Entscheidung
 :::
 :::
 
-## 3. Info: Zuschlagskalkulation mit variablen Kosten
+## 3. Info 3: Zuschlagskalkulation mit variablen Kosten
 
 :::info Info 3 · Zuschlagskalkulation mit variablen Kosten
 Die Zuschlagskalkulation berücksichtigt **alle** Kosten. Sie rechnet auch die **fixen Gemeinkosten** mit Zuschlagssätzen auf die Produkte.
@@ -128,7 +149,7 @@ Beispiel: Materialeinzelkosten 50,00 €, MGKZS 6 % → MGK 3,00 €. Sind 40 % 
 So geht es weiter durch das ganze Schema: Am Ende stehen die **variablen Selbstkosten**. Sie sind die Grundlage der **kurzfristigen Preisuntergrenze**.
 :::
 
-## 4. Aufgaben: Mit der Teilkostenrechnung überprüfen
+## 4. Aufgaben 5–7: Mit der Teilkostenrechnung überprüfen und entscheiden
 
 :::aufgabe basis 25 Aufgabe 5 · Die Entscheidung überprüfen
 Überprüfe deine Entscheidung mit der **Teilkostenrechnung**. Das Controlling teilt dir mit: Die Material- und die Fertigungsgemeinkosten sind zu **50 % bzw. 25 %** variabel, die Verwaltungs- und Vertriebsgemeinkosten zu **20 % bzw. 10 %**. Sämtliche Einzelkosten sind zu **100 %** variabel.
@@ -146,6 +167,16 @@ Gehe das Schema von oben durch. Die variablen Gemeinkosten sind jeweils der ange
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Variable Materialkosten 24,60 €, variable Fertigungskosten 52,20 €, variable Herstellkosten 76,80 €.
 :::
+
+:::rechenfeld Aufgabe 5 · Trage deine Ergebnisse ein (je Stück, auf Cent gerundet)
+variable Materialkosten | 24,60 | €
+variable Fertigungskosten | 52,20 | €
+variable Herstellkosten | 76,80 | €
+variable Selbstkosten je Stück | 81,41 | €
+variable Selbstkosten für 300 Stück | 24.423,00 | €
+Deckungsbeitrag je Stück | 36,59 | €
+Deckungsbeitrag für 300 Stück | 10.977,00 | €
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 6 · Preisuntergrenzen
@@ -153,6 +184,11 @@ Bestimme die **kurzfristige** und die **langfristige Preisuntergrenze** für die
 
 :::rechenraum 4
 Preisuntergrenzen
+:::
+
+:::rechenfeld Aufgabe 6 · Trage deine Ergebnisse ein
+kurzfristige Preisuntergrenze | 81,41 | €
+langfristige Preisuntergrenze | 131,18 | €
 :::
 :::
 
@@ -168,7 +204,7 @@ Denke an: Deckungsbeitrag, freie Kapazität im Winter, Folgeauftrag, aber auch a
 :::
 :::
 
-## 5. Info: Preisuntergrenzen im Überblick
+## 5. Zusammenfassung: Preisuntergrenzen im Überblick
 
 :::kasten Zusammenfassung
 | Preisuntergrenze | Formel |
@@ -180,7 +216,7 @@ Denke an: Deckungsbeitrag, freie Kapazität im Winter, Folgeauftrag, aber auch a
 Die Vollkostenrechnung ist ungeeignet, wenn **kurzfristig** über die Auslastung oder das Betriebsergebnis entschieden wird. Dann rechnest du mit der **Teilkostenrechnung**.
 :::
 
-## 6. Übung: Die Rechnung selbst anwenden
+## 6. Übung und Plus: Preisuntergrenzen selbst berechnen
 
 :::aufgabe basis 20 Übung 1 · Drei Preisuntergrenzen
 Die Montelli GmbH stellt auf einer Anlage die **Messe-Tasche „Express“** her. Monatliche Daten:
@@ -209,6 +245,12 @@ Rechenraum zu Übung 1
 :::hilfe 💡 Tipp
 Welche der vier Fixkosten sind ausgabenwirksam? Kalkulatorische Abschreibungen und Zinsen sind keine Ausgaben.
 :::
+
+:::rechenfeld Übung 1 · Trage deine Ergebnisse ein
+a) kurzfristige Preisuntergrenze | 21,00 | €
+b) liquiditätsorientierte Preisuntergrenze | 25,20 | €
+c) langfristige Preisuntergrenze | 29,70 | €
+:::
 :::
 
 :::aufgabe basis 25 Übung 2 · Teilkostenschema
@@ -230,6 +272,15 @@ c) Bestimme die kurzfristige Preisuntergrenze.
 :::rechenraum 12
 Schema: Vollkosten und Teilkosten
 :::
+
+:::rechenfeld Übung 2 · Trage deine Ergebnisse ein
+a) Herstellkosten (Vollkosten) | 40,00 | €
+a) Selbstkosten | 44,80 | €
+a) variable Herstellkosten | 32,57 | €
+a) variable Selbstkosten | 33,61 | €
+b) langfristige Preisuntergrenze | 44,80 | €
+c) kurzfristige Preisuntergrenze | 33,61 | €
+:::
 :::
 
 :::aufgabe plus 25 Plus · Rabattwunsch eines Discounters
@@ -243,6 +294,13 @@ b) Berechne die mittelfristige und die langfristige Preisuntergrenze bei **volle
 
 :::rechenraum 10
 Rechenraum zur Plus-Aufgabe
+:::
+
+:::rechenfeld Plus · Trage deine Ergebnisse ein
+a) Stückdeckungsbeitrag beim Discounter-Preis | 31,00 | €
+a) Verbesserung des Betriebsergebnisses je Monat | 3.100 | €
+b) mittelfristige Preisuntergrenze bei 1.000 Stück | 47,64 | €
+b) langfristige Preisuntergrenze bei 1.000 Stück | 67,00 | €
 :::
 :::
 

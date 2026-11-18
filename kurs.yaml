@@ -63,6 +63,21 @@ pdf:
   rechts: BRC
   logo: material/logo-bbz.png
 
+tests:
+  - id: abschlusstest
+    titel: "Abschlusstest: Preiskalkulation mit eigenen Zahlen"
+    nach: hk2
+    fragen: abschlusstest
+    varianten: 12
+    punkte: 100
+    versuche: 0
+    zeit: 0
+    pro_seite: 1
+    mischen: false
+    feedback: nachher
+    text: |
+      Jede Aufgabe hat **eigene Zahlen** für dich. Rechne auf **Papier** (Schemata aus dem Arbeitsmaterial helfen dir) und trage dann nur die **Ergebnisse** ein. Dezimalzahlen mit Komma, Geldbeträge auf Cent gerundet. Nach dem Abschluss siehst du den Lösungsweg.
+
 loesungen:
   titel: Lösungen
   text: Die Lösungen sind verborgen. Deine Lehrkraft schaltet sie nach und nach frei.

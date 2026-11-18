@@ -44,7 +44,7 @@ kurzcheck:
 Du musst nicht alles abhaken. Die Wiederholungsmodule sind jederzeit offen. Öffne sie, sobald du in einer Aufgabe nicht weiterkommst.
 :::
 
-## 2. Ausgangssituation
+## 2. Ausgangssituation: Das Preisproblem der Montelli GmbH
 
 :::situation Ausgangssituation: Sind unsere neuen Daypacks zu teuer?
 Die **Montelli GmbH** ist durch den Rucksack „Business Deluxe“ bekannt. Marktstudien zeigen: Die Nachfrage nach schlichten Alltagsrucksäcken für Berufspendler wächst. Deshalb plant Montelli eine neue Produktlinie, den Daypack **„City Light“**. Eine kleine Fertigungslinie ist schon eingerichtet. Ihre Kapazität liegt bei **4.000 Stück pro Jahr**.
@@ -56,7 +56,7 @@ Das Controlling hat den Listenverkaufspreis auf **89,00 €** festgelegt. Doch k
 **Tobias Brandt** (Controlling): „Das wundert mich nicht: Im Handel kostet ein vergleichbarer Daypack im Schnitt nur **64,00 €**. Wir müssen genau hinsehen, was uns ein Stück wirklich kostet.“
 :::
 
-## 3. Aufgaben: Das Preisproblem verstehen
+## 3. Aufgaben 1–4: Das Preisproblem verstehen
 
 :::aufgabe basis 10 Aufgabe 1 · Das Grundproblem
 Erkläre das Grundproblem aus der Ausgangssituation. Gehe dabei auch auf den Begriff **„Marktpreis“** ein.
@@ -96,6 +96,13 @@ Die variablen Stückkosten setzen sich aus den drei Posten zusammen, die „je S
 :::hilfe 🧮 Ansatz zu b)
 Wenn nichts produziert wird, fallen keine variablen Kosten an. Welche Kosten fallen trotzdem an?
 :::
+
+:::rechenfeld Aufgabe 2 · Trage deine Ergebnisse ein
+a) variable Stückkosten | 39,50 | € | | Rechne alle Kosten „je Stück“ zusammen.
+a) fixe Stückkosten | 30,00 | € | | Fixe Kosten insgesamt geteilt durch die Menge.
+a) gesamte Stückkosten | 69,50 | € | | variable plus fixe Stückkosten.
+b) Verlust ohne Produktion (Betrag ohne Minus) | 120.000 | € | | Welche Kosten fallen trotzdem an?
+:::
 :::
 
 :::aufgabe basis 15 Aufgabe 3 · Ein niedrigerer Preis
@@ -112,6 +119,11 @@ Rechenraum zu Aufgabe 3
 :::hilfe 💡 Tipp
 Der Stückdeckungsbeitrag ist der Preis minus die variablen Stückkosten (db = e − kᵥ). Für den Gesamtgewinn brauchst du den Gesamtdeckungsbeitrag und die fixen Kosten.
 :::
+
+:::rechenfeld Aufgabe 3 · Trage deine Ergebnisse ein
+a) Stückdeckungsbeitrag | 24,50 | € | | Preis minus variable Stückkosten.
+b) Gesamtergebnis (Verlust mit Minus, z. B. −1.000) | −22.000 | € | | Gesamtdeckungsbeitrag minus fixe Kosten.
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 4 · Lohnt sich der niedrige Preis?
@@ -122,44 +134,61 @@ Rechenraum zu Aufgabe 4
 :::
 :::
 
-## 4. Info: Vollkosten, Teilkosten und Preisuntergrenzen
+## 4. Info 1 und 2: Vollkostenrechnung, Teilkostenrechnung und Preisuntergrenzen
 
 Für die nächsten Aufgaben brauchst du zwei Infos. Lies sie in Ruhe.
 
 :::info Info 1 · Vollkostenrechnung und Teilkostenrechnung
-Die **Vollkostenrechnung** verteilt alle Kosten auf die Produkte: die variablen und die fixen. Das Ergebnis sind die **Selbstkosten** (z. B. aus der Zuschlagskalkulation). Sie eignen sich gut, um langfristig Preise zu planen.
+**Vollkostenrechnung.** Sie verteilt **alle** Kosten auf die Produkte, die variablen und die fixen (z. B. mit der Zuschlagskalkulation). Das Ergebnis sind die **Selbstkosten**. Sie sind die Grundlage für Preise, die auf Dauer alle Kosten decken sollen.
 
-Für schnelle Entscheidungen am Markt ist die Vollkostenrechnung aber ungeeignet. Sie unterscheidet nicht, ob eine Kostenart **vom Produkt abhängt** (variable Kosten) oder **ohnehin anfällt** (fixe Kosten). Dann besteht die Gefahr, einen Auftrag abzulehnen, der eigentlich Geld bringen würde.
+**Warum reicht sie nicht für jede Entscheidung?** Die Vollkostenrechnung unterscheidet nicht, ob eine Kostenart **vom Produkt abhängt** (variable Kosten, z. B. Material und Löhne je Stück) oder **ohnehin anfällt** (fixe Kosten, z. B. Abschreibungen und Gehälter). Bei kurzfristigen Entscheidungen führt das in die Irre. Wer einen Auftrag nur annimmt, wenn der Preis über den Selbstkosten liegt, lehnt womöglich einen Auftrag ab, der Geld bringen würde. Denn die fixen Kosten fallen auch dann an, wenn Montelli den Auftrag ablehnt.
 
-Die **Teilkostenrechnung** rechnet deshalb nur mit den **variablen Kosten**. Sie fragt: Deckt der Preis die Kosten, die durch das Produkt entstehen, und bleibt etwas für die Fixkosten übrig? Dieser Rest ist der **Deckungsbeitrag**.
+**Teilkostenrechnung.** Sie rechnet nur mit den **variablen Kosten**. Ihre Frage lautet: Deckt der Preis die Kosten, die durch das Produkt entstehen, und bleibt etwas für die fixen Kosten übrig? Dieser Rest heißt **Deckungsbeitrag**.
 
-Typische Situationen, in denen die Teilkostenrechnung hilft:
+**Wann hilft die Teilkostenrechnung?** In besonderen Marktsituationen, in denen schnell und flexibel entschieden werden muss:
 
-- ein **neues Produkt** wird eingeführt,
-- **Sonderangebote** (z. B. Lagerabbau auslaufender Modelle),
-- die **Konkurrenz** bietet niedrigere Preise,
-- ein **Zusatzauftrag** soll freie Kapazitäten füllen.
+| Situation | Beispiel bei Montelli |
+| --- | --- |
+| Ein **neues Produkt** wird eingeführt | Der Daypack „City Light“ soll am Markt Fuß fassen |
+| **Sonderangebote** aus verschiedenen Anlässen | Lagerabbau eines auslaufenden Rucksackmodells |
+| Die **Konkurrenz** bietet niedrigere Preise | Fachhändler listen das Produkt nur zum Marktpreis |
+| Freie **Kapazitäten** sollen genutzt werden | Zusatzauftrag im ruhigen Winter |
+
+Würde Montelli in solchen Situationen auch die fixen Kosten einrechnen, die der Betrieb als Ganzes verursacht, wären die Preise zu hoch. Montelli bekäme die Aufträge nicht und hätte **Wettbewerbsnachteile**.
+
+**Merke:** Vollkosten für die **langfristige** Preisplanung, Teilkosten für **kurzfristige** Marktentscheidungen.
 :::
 
 :::info Info 2 · Die Preisuntergrenzen
-Die **Preisuntergrenze** ist der niedrigste Preis, zu dem ein Unternehmen ein Produkt noch anbieten kann. Es gibt drei Untergrenzen. Sie unterscheiden sich darin, welche Kosten der Preis decken muss.
+Die **Preisuntergrenze** gibt den Verkaufspreis an, den ein Unternehmen mindestens erzielen muss, um zu „überleben“. Wie niedrig dieser Preis sein darf, hängt vom **Zeitraum** ab, den man betrachtet.
 
-| Preisuntergrenze | Was muss der Preis decken? | Formel (je Stück) |
-| --- | --- | --- |
-| **Kurzfristig** | nur die variablen Kosten | variable Stückkosten |
-| **Mittelfristig (liquiditätsorientiert)** | variable Kosten und alle fixen Kosten, die zu **Ausgaben** führen (z. B. Gehälter, Versicherung, Miete) | variable Stückkosten + ausgabenwirksame fixe Stückkosten |
-| **Langfristig** | **alle** Kosten (variable und fixe) | gesamte Stückkosten |
+**Immer decken:** die **variablen Kosten**. Sie fallen nur an, wenn das Produkt wirklich gefertigt wird. Liegt der Preis darunter, vergrößert jedes verkaufte Stück den Verlust.
 
-**Warum kurzfristig nur die variablen Kosten?** Die fixen Kosten fallen ohnehin an. Wer einen Preis über den variablen Stückkosten erzielt, verkleinert den Verlust.
+**Langfristig decken:** **alle Kosten**, auch die fixen. Sonst macht das Unternehmen auf Dauer Verlust.
 
-**Warum nicht darunter?** Liegt der Preis unter den variablen Stückkosten, vergrößert jedes verkaufte Stück den Verlust.
+| Preisuntergrenze | Der Preis muss decken … | Formel (je Stück) | City Light |
+| --- | --- | --- | --- |
+| **Kurzfristig** | nur die variablen Kosten | variable Stückkosten | 39,50 € |
+| **Mittelfristig** (liquiditätsorientiert) | variable Kosten und die fixen Kosten, die zu **Ausgaben** führen (Gehälter, Versicherung, Miete, betriebliche Steuern) | variable Stückkosten + ausgabenwirksame fixe Stückkosten | 39,50 € + 46.000 € : 4.000 = 51,00 € |
+| **Langfristig** | **alle** Kosten | gesamte Stückkosten | 69,50 € |
 
-**Warum mittelfristig mehr?** Fixe Kosten wie Gehälter führen zu Zahlungen. Wer sie nicht decken kann, bekommt ein Liquiditätsproblem. Kalkulatorische Abschreibungen und Zinsen sind keine Ausgaben und dürfen kurz- und mittelfristig außer Acht bleiben.
+**Die Preisleiter beim City Light:**
 
-**Warum langfristig alles?** Auf Dauer muss das Unternehmen alle Kosten verdienen, sonst macht es Verlust.
+| Preis je Stück | Was bedeutet das? |
+| --- | --- |
+| ab 69,50 € | Alle Kosten sind gedeckt, es bleibt ein Gewinn. |
+| 51,00 € bis 69,50 € | Variable Kosten und ausgabenwirksame Fixkosten sind gedeckt, nur die kalkulatorischen Kosten (Abschreibungen, Zinsen) nicht voll. Eine Zeit lang tragbar, auf Dauer nicht. |
+| 39,50 € bis 51,00 € | Nur die variablen Kosten sind gedeckt. Die Fixkosten mit Ausgaben nicht: Es droht ein **Liquiditätsproblem**. Nur kurzfristig und mit gutem Grund. |
+| unter 39,50 € | Jedes Stück vergrößert den Verlust. Das macht man nicht. |
+
+**Warum darf man kurzfristig auf die fixen Kosten verzichten?** Fixe Kosten fallen auch dann an, wenn das Produkt nicht gefertigt wird. Ein Preis über den variablen Kosten verkleinert deshalb den Verlust, den Montelli sonst hätte.
+
+**Warum reicht die kurzfristige Untergrenze nicht?** Sie lässt Zahlungen für Gehälter, Versicherungen usw. unberücksichtigt. Diese Ausgaben muss das Unternehmen trotzdem leisten. Deshalb gibt es die **liquiditätsorientierte** Untergrenze. Auf **kalkulatorische** Abschreibungen und Zinsen darf man dabei verzichten, denn sie führen nicht zu Ausgaben.
+
+**Wann darf man sich an der kurzfristigen Untergrenze orientieren?** Nur zeitlich begrenzt und mit Grund (neues Produkt, Lagerabbau, freie Kapazität, Konkurrenzpreise). Dazu gehört auch die Frage nach Nebenwirkungen: Erfahren andere Kunden von dem niedrigen Preis, kann das das Preisgefüge zerstören. Als Dauerpreis taugt die kurzfristige Untergrenze nie.
 :::
 
-## 5. Aufgaben: Preisuntergrenzen bestimmen
+## 5. Aufgaben 5–6: Preisuntergrenzen bestimmen
 
 :::aufgabe basis 10 Aufgabe 5 · Die kurzfristige Preisuntergrenze
 Bestimme die **kurzfristige Preisuntergrenze** für den City Light. Erkläre, warum die Montelli GmbH den City Light nicht unterhalb dieser Grenze anbieten kann.
@@ -170,6 +199,10 @@ Rechenraum zu Aufgabe 5
 
 :::hilfe 💡 Tipp
 Schau in Info 2: Welche Kosten muss die kurzfristige Preisuntergrenze decken? Welche Zahl aus Aufgabe 2 ist das?
+:::
+
+:::rechenfeld Aufgabe 5 · Trage dein Ergebnis ein
+kurzfristige Preisuntergrenze | 39,50 | €
 :::
 :::
 
@@ -183,23 +216,40 @@ Rechenraum zu Aufgabe 6
 :::hilfe 💡 Tipp
 Die langfristige Preisuntergrenze entspricht den gesamten Stückkosten. Das Ergebnis hast du in Aufgabe 2 a) schon berechnet.
 :::
+
+:::rechenfeld Aufgabe 6 · Trage dein Ergebnis ein
+langfristige Preisuntergrenze | 69,50 | €
+:::
 :::
 
-## 6. Erkunden: Den Preis verschieben
+## 6. Erkunden: Wie verändern Preis, Menge und Kosten die Preisuntergrenzen?
 
-Probiere es selbst aus. Ziehe den **Verkaufspreis** nach links und rechts. Achte auf die drei Farben: Wo wächst der Verlust mit jedem Stück, wo wird er kleiner, wo entsteht Gewinn? Verändere dann die **Absatzmenge**. Was passiert mit der langfristigen Preisuntergrenze, wenn weniger Stück verkauft werden?
+Probiere es selbst aus. Ziehe den **Verkaufspreis** nach links und rechts. Achte auf die drei Farben: Wo wächst der Verlust mit jedem Stück, wo wird er kleiner, wo entsteht Gewinn?
+
+Verändere dann die anderen Regler und beobachte die Preisuntergrenzen:
+
+- **Absatzmenge:** Was passiert mit der langfristigen Preisuntergrenze, wenn weniger Stück verkauft werden?
+- **Variable Stückkosten:** Welche Preisuntergrenze verschiebt sich, wenn das Material teurer wird?
+- **Fixe Kosten:** Wie ändern sich die Untergrenzen, wenn die Fixkosten sinken? Welche bleibt gleich?
+
+Die liquiditätsorientierte Untergrenze rechnet nur mit den ausgabenwirksamen Fixkosten (hier 46.000 €: Gehälter und sonstige fixe Kosten).
 
 :::diagramm preisuntergrenze
-titel: City Light: Ergebnis in Abhängigkeit vom Preis
+titel: City Light: Ergebnis in Abhängigkeit von Preis, Menge und Kosten
 fix: 120000
+fix_min: 60000
+fix_max: 180000
 var: 39,5
+var_min: 25
+var_max: 55
 kapazitaet: 4000
 preis: 64
 preis_min: 30
 preis_max: 95
+ausgaben: 46000
 :::
 
-## 7. Übung: Die Rechnung noch einmal selbst
+## 7. Übung und Plus: Die Rechnung selbst anwenden
 
 :::aufgabe basis 15 Übung · Rucksack „Trail Pro“
 Die Montelli GmbH prüft einen zweiten Rucksack, den **„Trail Pro“**. Die Kapazität beträgt **1.600 Stück pro Jahr**. Die variablen Stückkosten liegen bei **52,00 €**, die fixen Kosten bei **96.000,00 €** pro Jahr. Der Marktpreis beträgt **98,00 €**.
@@ -217,6 +267,16 @@ Rechenraum zur Übung
 :::hilfe 💡 Tipp zu c)
 Die fixen Kosten bleiben gleich, werden aber auf weniger Stück verteilt. Das kennst du aus der Fixkostendegression.
 :::
+
+:::rechenfeld Übung · Trage deine Ergebnisse ein
+a) fixe Stückkosten | 60,00 | €
+a) gesamte Stückkosten | 112,00 | €
+a) kurzfristige Preisuntergrenze | 52,00 | €
+a) langfristige Preisuntergrenze | 112,00 | €
+b) Gesamtergebnis bei 98,00 € (mit Minus) | −22.400 | €
+c) langfristige Preisuntergrenze bei 1.200 Stück | 132,00 | €
+c) Gesamtergebnis bei 1.200 Stück (mit Minus) | −40.800 | €
+:::
 :::
 
 :::aufgabe plus 20 Plus · Preissenkung und weniger Absatz
@@ -224,6 +284,12 @@ Die Händler zeigen sich hartnäckig: Sie bieten für den City Light nur **58,00
 
 :::rechenraum 9
 Rechenraum zur Plus-Aufgabe
+:::
+
+:::rechenfeld Plus · Trage deine Ergebnisse ein
+Stückdeckungsbeitrag bei 58,00 € | 18,50 | €
+Gesamtergebnis bei 2.500 Stück (mit Minus) | −73.750 | €
+langfristige Preisuntergrenze bei 2.500 Stück | 87,50 | €
 :::
 :::
 

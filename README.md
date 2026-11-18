@@ -14,6 +14,13 @@ Deckungsbeitrag und Break-even) und als neues Thema die Handelskalkulation. Ziel
 
 Stand: **Alle drei Stufen sind geschrieben (alle Module noch `review: entwurf`)**. Basis-Zeit insgesamt: 885 min (ca. 20 Unterrichtsstunden), ohne Plus-Aufgaben.
 
+## Bausteine im Lernpfad
+
+- **Rechenfelder** unter den Rechenaufgaben: Ergebnis eintragen, das Feld meldet „richtig“ oder „noch nicht“ (Lösung wird nicht verraten).
+- **Erkunden-Grafiken** mit Reglern für Preis, Menge, fixe Kosten und variable Stückkosten.
+- **Arbeitsmaterial** (`material/Kalkulationsschemata.xlsx` und `.pdf`, gebaut mit `docs/bau_material.py`): ein Blatt je Schema, eine Spalte je Aufgabe.
+- **Abschlusstest** (`fragen/abschlusstest.yaml`): 9 Rechenaufgaben mit Zufallszahlen; `docs/pruefe_abschlusstest.py` prüft alle Formeln unabhängig.
+
 ## Ordner
 
 - `kurs.yaml` Kursbeschreibung · `module/` Module · `loesungen/` Lösungen (nur als PDF in Moodle, verborgen)

@@ -36,7 +36,7 @@ kurzcheck:
 Zum Üben und Nachschlagen. Die Ergebnisse brauchst du in [Deckungsbeitrag und Break-even](modul:db1) und bei den Preisuntergrenzen.
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Welche Kosten hängen von der Menge ab?
 
 :::situation Ausgangssituation: Welche Kosten hängen von der Menge ab?
 Im monatlichen Feedbackgespräch spricht **Jonas Albers** (Fertigung) mit **Tobias Brandt** (Controlling).
@@ -46,7 +46,7 @@ Im monatlichen Feedbackgespräch spricht **Jonas Albers** (Fertigung) mit **Tobi
 **Tobias Brandt:** „Ganz so einfach ist das nicht. Ein Teil der Kosten sinkt tatsächlich. Aber es gibt auch Kosten, die in gleicher Höhe bestehen bleiben. Das zeige ich dir am Trekking-Rucksack **„Fjord 500“**.“
 :::
 
-:::info Aktennotiz zum Fjord 500
+:::kasten Aktennotiz zum Fjord 500
 | Angabe | Wert |
 | --- | --- |
 | Maximale Produktionsmenge | 500 Stück pro Monat |
@@ -59,7 +59,15 @@ Im monatlichen Feedbackgespräch spricht **Jonas Albers** (Fertigung) mit **Tobi
 | Sonstige fixe Kosten | 600,00 € pro Monat |
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–5: Kosten und Stückkosten des Fjord 500
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Für Aufgabe 2 gibt es die Tabelle als Blatt „Kosten und Menge“. Die Datei enthält alle Schemata dieses Lernpfads.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 10 Aufgabe 1 · Variable Stückkosten und fixe Gesamtkosten
 Berechne die **variablen Stückkosten** und die **fixen Gesamtkosten** des Fjord 500.
@@ -70,6 +78,11 @@ Variable Stückkosten: alle Kosten „je Stück“ addieren. Fixe Gesamtkosten: 
 
 :::hilfe 🧮 Wichtig
 Du brauchst diese beiden Werte noch in [Deckungsbeitrag und Break-even](modul:db1). Prüfe sie mit der Lösung, sobald deine Lehrkraft sie freigegeben hat.
+:::
+
+:::rechenfeld Aufgabe 1 · Trage deine Ergebnisse ein
+variable Stückkosten | 63,00 | €
+fixe Gesamtkosten pro Monat | 6.000 | €
 :::
 :::
 
@@ -91,6 +104,17 @@ Deine Erläuterung
 :::hilfe 💡 Tipp
 Gesamtkosten = fixe Kosten + variable Kosten. Variable Kosten = variable Stückkosten · Menge. Fixe Stückkosten = fixe Kosten : Menge.
 :::
+
+:::rechenfeld Aufgabe 2 · Trage ausgewählte Ergebnisse der Tabelle ein
+Gesamtkosten bei 100 Stück | 12.300 | €
+Gesamtkosten bei 300 Stück | 24.900 | €
+Gesamtkosten bei 500 Stück | 37.500 | €
+fixe Stückkosten bei 100 Stück | 60,00 | €
+fixe Stückkosten bei 500 Stück | 12,00 | €
+Stückkosten bei 100 Stück | 123,00 | €
+Stückkosten bei 300 Stück | 83,00 | €
+Stückkosten bei 500 Stück | 75,00 | €
+:::
 :::
 
 :::aufgabe basis 15 Aufgabe 3 · Diagramm der Gesamtkosten
@@ -100,12 +124,16 @@ Zeichne in ein Diagramm den Verlauf der **fixen Kosten**, der **variablen Kosten
 Diagramm: Gesamtkosten
 :::
 
-Zum Abgleich kannst du hier den Verlauf mit der Menge verändern:
+Zum Abgleich: Verändere die **Menge**, die **fixen Kosten** und die **variablen Stückkosten** und beobachte, welche Linie sich wie verschiebt.
 
 :::diagramm kostenverlauf
 titel: Fjord 500: Kostenverlauf (Gesamtkosten)
 fix: 6000
+fix_min: 3000
+fix_max: 9000
 var: 63
+var_min: 40
+var_max: 90
 kapazitaet: 500
 menge: 250
 :::
@@ -123,7 +151,11 @@ Zum Abgleich:
 :::diagramm stueckkosten
 titel: Fjord 500: Stückkosten
 fix: 6000
+fix_min: 3000
+fix_max: 9000
 var: 63
+var_min: 40
+var_max: 90
 kapazitaet: 500
 menge_min: 50
 menge: 250
@@ -142,7 +174,7 @@ Was passiert mit den fixen Kosten, wenn weniger produziert wird? Und was mit den
 :::
 :::
 
-## 3. Infos
+## 3. Info 1–4: Kostenfunktion, fixe Kosten, Fixkostendegression, variable Kosten
 
 :::info Info 1 · Die Kostenfunktion
 Die Gesamtkosten lassen sich in fixe und variable Kosten teilen:
@@ -172,7 +204,7 @@ Bei proportionalen variablen Kosten bleiben die **variablen Stückkosten konstan
 Beispiele: Rohstoffkosten, Löhne je Stück.
 :::
 
-## 4. Übung
+## 4. Übung: Kosten berechnen
 
 :::aufgabe basis 15 Übung 1 · Kosten im Mai
 Die Montelli GmbH stellt im Mai **500 Messerucksäcke** her. Dabei fallen diese Kosten an:
@@ -196,6 +228,17 @@ c) Berechne die Stückkosten, wenn im Juli nur **300** Messerucksäcke hergestel
 :::rechenraum 12
 Rechenraum zu Übung 1
 :::
+
+:::rechenfeld Übung 1 · Trage deine Ergebnisse ein
+a) fixe Kosten je Monat | 8.350 | €
+a) variable Kosten je Monat | 23.750 | €
+a) monatliche Gesamtkosten | 32.100 | €
+a) fixe Stückkosten | 16,70 | €
+a) variable Stückkosten | 47,50 | €
+a) Stückkosten | 64,20 | €
+b) Stückkosten bei 700 Stück | 59,43 | €
+c) Stückkosten bei 300 Stück | 75,33 | €
+:::
 :::
 
 :::aufgabe basis 10 Übung 2 · Kosten rückwärts
@@ -212,9 +255,19 @@ d) Berechne die Stückkosten, wenn 100 bzw. 150 Gürteltaschen produziert werden
 :::rechenraum 10
 Rechenraum zu Übung 2
 :::
+
+:::rechenfeld Übung 2 · Trage deine Ergebnisse ein
+a) variable Gesamtkosten | 1.020 | €
+b) variable Stückkosten | 8,50 | €
+b) gesamte Stückkosten | 28,00 | €
+c) Gesamtkosten bei 100 Stück | 3.190 | €
+c) Gesamtkosten bei 150 Stück | 3.615 | €
+d) Stückkosten bei 100 Stück | 31,90 | €
+d) Stückkosten bei 150 Stück | 24,10 | €
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Kosten trennen und die km-Pauschale
 
 :::aufgabe plus 20 Plus 1 · Kosten aus zwei Monaten trennen
 Aus der Kostenrechnung der Montelli GmbH liegen diese Daten vor. Die variablen Kosten verlaufen proportional.
@@ -231,6 +284,13 @@ Rechenraum zu Plus 1
 
 :::hilfe 💡 Tipp
 Die Gesamtkosten steigen von einem Monat zum anderen nur wegen der variablen Kosten. Teile den Unterschied der Gesamtkosten durch den Unterschied der Mengen: Das sind die variablen Stückkosten. Danach kannst du die fixen Kosten berechnen.
+:::
+
+:::rechenfeld Plus 1 · Trage deine Ergebnisse ein
+a) variable Stückkosten | 9,00 | €
+a) fixe Kosten je Monat | 46.000 | €
+b) variable Stückkosten | 9,00 | €
+b) fixe Kosten je Monat | 26.000 | €
 :::
 :::
 
@@ -259,6 +319,14 @@ bc) Erläutere die Problematik einer km-Pauschale aus Sicht des Unternehmens und
 
 :::rechenraum 14
 Rechenraum zu Plus 2
+:::
+
+:::rechenfeld Plus 2 · Trage deine Ergebnisse ein
+aa) fixe Kosten je Monat (zwei Nachkommastellen) | 558,33 | €
+ab) variable Kosten je 100 km | 11,80 | €
+ac) Gesamtkosten im Jahr | 11.420 | €
+ac) Kosten je km (vier Nachkommastellen) | 0,2855 | €
+ba) km-Pauschale bei 52.000 km (vier Nachkommastellen) | 0,2468 | €
 :::
 :::
 

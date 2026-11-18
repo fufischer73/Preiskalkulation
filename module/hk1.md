@@ -35,7 +35,7 @@ kurzcheck:
 Diese Stufe ist neu. Sie baut auf der Zuschlagskalkulation (Stufe 2) auf. Wenn dir Skonto und Rabatt „im Hundert“ unklar sind, schau in [Zuschlagskalkulation I](modul:zk1).
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Was müssen wir für unsere Handelswaren verlangen?
 
 :::situation Ausgangssituation: Was müssen wir für unsere Handelswaren verlangen?
 Auf Wunsch eines Großkunden plant die **Montelli GmbH**, das **Lederpflegespray „LederPro“** als **Handelsware** neu ins Sortiment aufzunehmen. Mit der **Pflegeprodukte Nord OHG** aus Hamburg ist ein unterschriftsreifer Rahmenliefervertrag ausgehandelt: Der **Einstandspreis** beträgt **3,60 € netto** je Dose.
@@ -43,7 +43,15 @@ Auf Wunsch eines Großkunden plant die **Montelli GmbH**, das **Lederpflegespray
 **Merle Dahl** (Verkauf): „Wir verkaufen es unverändert weiter. Hilf mir bitte bei der Kalkulation des Listenverkaufspreises. Berücksichtige dabei die Handlungskosten.“
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–8: Handelswaren kalkulieren
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Für diese Aufgaben: Blatt „Handelskalk. vorwärts“. Die Datei enthält alle Schemata dieses Lernpfads.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 5 Aufgabe 1 · Erzeugnis oder Handelsware?
 Erläutere den Unterschied zwischen **eigenen Erzeugnissen** und **Handelswaren**. Beschreibe, welche Folgen dieser Unterschied für die Kostenrechnung hat.
@@ -83,6 +91,13 @@ Einstandspreis + Handlungskosten = Selbstkosten. Dann Gewinn auf die Selbstkoste
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Selbstkosten 4,68 €, Barverkaufspreis 5,24 €, Zielverkaufspreis 5,35 €.
 :::
+
+:::rechenfeld Aufgabe 3 · Trage deine Ergebnisse ein
+Selbstkosten | 4,68 | €
+Barverkaufspreis | 5,24 | €
+Zielverkaufspreis | 5,35 | €
+Listenverkaufspreis | 5,69 | €
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 4 · Das ganze Pflegesortiment
@@ -99,6 +114,11 @@ Rechenraum zu Aufgabe 4
 :::hilfe 💡 Tipp
 Der Kalkulationszuschlag ist die Differenz zwischen Listenverkaufspreis und Einstandspreis. Den Satz erhältst du, wenn du ihn durch den Einstandspreis teilst und mit 100 multiplizierst.
 :::
+
+:::rechenfeld Aufgabe 4 · Trage deine Ergebnisse ein
+a) Kalkulationszuschlagssatz (zwei Nachkommastellen) | 58,06 | %
+b) Kalkulationsfaktor (vier Nachkommastellen) | 1,5806 | 
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 5 · Preise für drei Pflegeprodukte
@@ -110,6 +130,12 @@ c) „Reißverschlusswachs“, Einstandspreis 2,80 €
 
 :::rechenraum 6
 Rechenraum zu Aufgabe 5
+:::
+
+:::rechenfeld Aufgabe 5 · Trage deine Ergebnisse ein
+a) Ledercreme | 8,22 | €
+b) Imprägnierspray | 5,45 | €
+c) Reißverschlusswachs | 4,43 | €
 :::
 :::
 
@@ -135,6 +161,14 @@ Im Zuge der Sortimentserweiterung sollen weitere Handelswaren verglichen werden,
 :::rechenraum 6
 Rechenraum zu Aufgabe 7
 :::
+
+:::rechenfeld Aufgabe 7 · Trage deine Kalkulationsfaktoren ein (vier Nachkommastellen)
+Regenhülle S | 2,0625 | 
+Regenhülle L | 2,0161 | 
+Schlüsselband | 1,2083 | 
+Gepäckanhänger | 1,0625 | 
+Trinkflasche | 1,5085 | 
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 8 · Die Unterschiede beurteilen
@@ -149,7 +183,7 @@ Vergleiche mit dem Faktor aus Aufgabe 4. Welche Waren decken kaum Handlungskoste
 :::
 :::
 
-## 3. Info: Handelswaren und ihre Kalkulation
+## 3. Info 1: Handelswaren und ihre Kalkulation
 
 :::info Info 1 · Handelswaren
 **Handelswaren** stellt ein Unternehmen nicht selbst her. Es kauft sie ein und verkauft sie **ohne Veränderung** weiter. Die Kalkulation baut deshalb auf dem **Einstandspreis** (dem Preis, den Montelli für die Ware bezahlt) auf.
@@ -185,7 +219,7 @@ Aus dem Satz erhältst du den Faktor so: **Faktor = (100 + Satz) : 100**. Dann g
 Beispiel (andere Zahlen): Einstandspreis 40,00 €, Listenverkaufspreis 64,00 €. Zuschlag 24,00 €, Zuschlagssatz 24,00 € : 40,00 € · 100 = 60 %, Faktor 64,00 € : 40,00 € = 1,60.
 :::
 
-## 4. Übung
+## 4. Übung: Satz, Spanne, Faktor und Preis
 
 :::aufgabe basis 15 Übung · Satz, Spanne, Faktor und Preis
 a) Der Einstandspreis einer Montelli-Handelsware beträgt **31,20 €**, der Listenverkaufspreis **52,00 €**. Berechne den Kalkulationszuschlagssatz, den Kalkulationsfaktor und die **Handelsspanne**. Die Handelsspanne ist der Anteil des Zuschlags am **Listenverkaufspreis** in Prozent: (Listenverkaufspreis − Einstandspreis) · 100 : Listenverkaufspreis.
@@ -195,9 +229,17 @@ b) Der Einstandspreis einer anderen Handelsware beträgt **275,00 €**, der Kal
 :::rechenraum 8
 Rechenraum zur Übung
 :::
+
+:::rechenfeld Übung · Trage deine Ergebnisse ein
+a) Kalkulationszuschlagssatz (zwei Nachkommastellen) | 66,67 | %
+a) Kalkulationsfaktor (vier Nachkommastellen) | 1,6667 | 
+a) Handelsspanne (zwei Nachkommastellen) | 40,00 | %
+b) Listenverkaufspreis | 357,50 | €
+b) Handelsspanne (zwei Nachkommastellen) | 23,08 | %
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Einheitlicher Faktor oder genauere Kalkulation?
 
 :::aufgabe plus 25 Plus · Einheitlicher Faktor oder genauere Kalkulation?
 Montelli kalkuliert das Zubehör bisher mit dem einheitlichen Faktor aus Aufgabe 4 (Handlungskosten 30 %). Zwei Artikel haben aber andere **tatsächliche Handlungskosten**:
@@ -223,6 +265,15 @@ Rechenraum zur Plus-Aufgabe
 
 :::hilfe 💡 Tipp zu c)
 Zielverkaufspreis = Listenverkaufspreis · 0,94. Barverkaufspreis = Zielverkaufspreis · 0,98. Selbstkosten = Einstandspreis · (1 + tatsächliche Handlungskosten).
+:::
+
+:::rechenfeld Plus · Trage deine Ergebnisse ein
+a) einheitlicher Preis Regenhülle | 7,59 | €
+a) einheitlicher Preis Gepäckrolle | 22,92 | €
+b) genauer Preis Regenhülle | 7,00 | €
+b) genauer Preis Gepäckrolle | 25,56 | €
+c) Gewinn Regenhülle beim einheitlichen Preis | 1,23 | €
+c) Gewinn Gepäckrolle beim einheitlichen Preis | 0,08 | €
 :::
 :::
 

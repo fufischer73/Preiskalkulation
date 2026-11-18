@@ -35,7 +35,7 @@ kurzcheck:
 Du brauchst die Vorwärtskalkulation aus [Handelskalkulation I](modul:hk1).
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Der Markt gibt den Preis vor!
 
 :::situation Ausgangssituation: Der Markt gibt den Preis vor!
 Die Montelli GmbH bezieht den Regenschutz **„StormGuard“** für Rucksäcke zu einem **Einstandspreis von 58,00 €** von der **Nordwetter GmbH** aus Husum. Montelli verkauft ihn zu dem Preis, den die Vorwärtskalkulation ergibt. Dabei gelten diese Zuschlagssätze:
@@ -50,7 +50,15 @@ Die Montelli GmbH bezieht den Regenschutz **„StormGuard“** für Rucksäcke z
 Der Absatz ist in den letzten Monaten stark zurückgegangen. Eine Marktanalyse zeigt: Die Konkurrenz verkauft ein vergleichbares Produkt zu einem **Listenverkaufspreis von 79,00 €** und zu sonst gleichen Bedingungen.
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–5: Vorwärts-, Rückwärts- und Differenzkalkulation
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Für diese Aufgaben: Blätter „Handelskalk. vorwärts“, „Handelskalk. rückwärts“, „Differenzkalkulation“ und „Bezugskalkulation“. Die Datei enthält alle Schemata dieses Lernpfads.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 10 Aufgabe 1 · Vorwärtskalkulation
 Ermittle im Rahmen der Vorwärtskalkulation die **Selbstkosten**, den **Stückgewinn** und den **Zielverkaufspreis**. Berechne auch den **Listenverkaufspreis**.
@@ -61,6 +69,13 @@ Vorwärtskalkulation
 
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Selbstkosten 68,44 €, Barverkaufspreis 83,50 €.
+:::
+
+:::rechenfeld Aufgabe 1 · Trage deine Ergebnisse ein
+Selbstkosten | 68,44 | €
+Stückgewinn | 15,06 | €
+Zielverkaufspreis | 85,20 | €
+Listenverkaufspreis | 90,64 | €
 :::
 :::
 
@@ -73,6 +88,10 @@ Rechenraum zu Aufgabe 2
 
 :::hilfe 💡 Tipp
 Die Handelsspanne ist der Unterschied zwischen Listenverkaufs- und Einstandspreis in Prozent des **Listenverkaufspreises**. Schau in Info 2.
+:::
+
+:::rechenfeld Aufgabe 2 · Trage dein Ergebnis ein
+Handelsspanne (zwei Nachkommastellen) | 36,01 | %
 :::
 :::
 
@@ -90,6 +109,13 @@ Beginne beim Listenverkaufspreis. Rabatt und Skonto ziehst du „vom Hundert“ 
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Zielverkaufspreis 74,26 €, Barverkaufspreis 72,77 €, Selbstkosten 59,65 €.
 :::
+
+:::rechenfeld Aufgabe 3 · Trage deine Ergebnisse ein
+Zielverkaufspreis | 74,26 | €
+Barverkaufspreis | 72,77 | €
+Selbstkosten | 59,65 | €
+höchster Einstandspreis | 50,55 | €
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 4 · Differenzkalkulation
@@ -102,6 +128,11 @@ Differenzkalkulation
 :::hilfe 💡 Tipp
 Die Selbstkosten kennst du aus Aufgabe 1. Rechne den Listenverkaufspreis 79,00 € rückwärts bis zum Barverkaufspreis (wie in Aufgabe 3). Der Gewinn ist die Differenz zwischen Barverkaufspreis und Selbstkosten.
 :::
+
+:::rechenfeld Aufgabe 4 · Trage deine Ergebnisse ein
+Stückgewinn in Euro | 4,33 | €
+Stückgewinn in % der Selbstkosten (zwei Nachkommastellen) | 6,33 | %
+:::
 :::
 
 :::aufgabe basis 5 Aufgabe 5 · Handelsspanne bei 79,00 €
@@ -110,9 +141,13 @@ Berechne die **Handelsspanne**, die Montelli unter den Bedingungen von Aufgabe 4
 :::rechenraum 4
 Rechenraum zu Aufgabe 5
 :::
+
+:::rechenfeld Aufgabe 5 · Trage dein Ergebnis ein
+Handelsspanne (zwei Nachkommastellen) | 26,58 | %
+:::
 :::
 
-## 3. Infos
+## 3. Info 2: Feste Marktpreise, Rückwärts- und Differenzkalkulation, Handelsspanne
 
 :::info Info 2 · Feste Marktpreise
 Bietet die Konkurrenz ein vergleichbares Produkt günstiger an, muss ein Unternehmen den Preis als **festen Marktpreis** akzeptieren. Die eigene Kalkulation lässt sich dann nicht aufrechterhalten. Bei Handelswaren gibt es zwei Möglichkeiten:
@@ -140,7 +175,7 @@ Bietet die Konkurrenz ein vergleichbares Produkt günstiger an, muss ein Unterne
 **Bezugskalkulation.** Aus dem Einkauf kennst du die Rechnung vom Listeneinkaufspreis zum Einstandspreis: Listeneinkaufspreis − Lieferantenrabatt = Zieleinkaufspreis; − Lieferantenskonto = Bareinkaufspreis; + Bezugskosten = **Einstandspreis**.
 :::
 
-## 4. Übung
+## 4. Übung: Bezugskalkulation und Stückgewinn
 
 :::aufgabe basis 20 Übung 1 · Von der Einkaufsliste bis zum Gewinn
 Die Montelli GmbH bezieht Regenschutzplanen. Der Lieferant liefert zu diesen Bedingungen:
@@ -161,6 +196,13 @@ Rechenraum zu Übung 1
 :::hilfe 💡 Tipp
 Zuerst die Bezugskalkulation bis zum Einstandspreis (Info 2, letzter Absatz), dann die Differenzkalkulation.
 :::
+
+:::rechenfeld Übung 1 · Trage deine Ergebnisse ein
+Einstandspreis | 300,74 | €
+Selbstkosten | 360,89 | €
+Gewinn in Euro | 18,37 | €
+Gewinn in % der Selbstkosten (zwei Nachkommastellen) | 5,09 | %
+:::
 :::
 
 :::aufgabe basis 15 Übung 2 · Stückgewinn bei vier Handelswaren
@@ -176,9 +218,20 @@ Montelli bezieht verschiedene Handelswaren zu den angegebenen Einstandspreisen. 
 :::rechenraum 14
 Rechenraum zu Übung 2
 :::
+
+:::rechenfeld Übung 2 · Trage deine Ergebnisse ein (Gewinn in Euro / in % der Selbstkosten)
+a) Gewinn in Euro | 19,94 | €
+a) Gewinn in % | 44,31 | %
+b) Gewinn in Euro | 16,51 | €
+b) Gewinn in % | 14,95 | %
+c) Gewinn in Euro | 10,38 | €
+c) Gewinn in % | 58,61 | %
+d) Gewinn in Euro | 271,73 | €
+d) Gewinn in % | 24,88 | %
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Konkurrenzpreis, Mengenrabatt und Selbstkosten
 
 :::aufgabe plus 25 Plus 1 · Der Preis der Konkurrenz
 Ein Großhändler bietet einen qualitativ minderwertigen Regenschutz zum Listenverkaufspreis von **24,90 €** an. Seine Kalkulation: **10 %** Kundenrabatt, **2 %** Kundenskonto, **12,5 %** Gewinn, **20 %** Handlungskosten. Die Bezugskosten betragen **1,80 €**. Berechne
@@ -190,6 +243,14 @@ d) die Handelsspanne.
 
 :::rechenraum 12
 Rechenraum zu Plus 1
+:::
+
+:::rechenfeld Plus 1 · Trage deine Ergebnisse ein
+a) Einstandspreis | 16,27 | €
+a) Bareinkaufspreis | 14,47 | €
+b) Kalkulationszuschlagssatz (zwei Nachkommastellen) | 53,04 | %
+c) Kalkulationsfaktor (vier Nachkommastellen) | 1,5304 | 
+d) Handelsspanne (zwei Nachkommastellen) | 34,66 | %
 :::
 :::
 
@@ -209,6 +270,16 @@ e) Vergleiche den **Gesamtgewinn** beim bisherigen Auftrag (150 Stück) mit dem 
 :::rechenraum 12
 Rechenraum zu Plus 2
 :::
+
+:::rechenfeld Plus 2 · Trage deine Ergebnisse ein
+a) Selbstkosten je Stück | 22,08 | €
+b) Gewinn bisher in % (zwei Nachkommastellen) | 35,42 | %
+c) Rabatt in Euro je Stück | 3,74 | €
+c) neuer Preis | 26,16 | €
+d) Gewinn neu in % (zwei Nachkommastellen) | 18,48 | %
+e) Gesamtgewinn bisher (150 Stück) | 1.173 | €
+e) Gesamtgewinn neu (200 Stück) | 816 | €
+:::
 :::
 
 :::aufgabe plus 15 Plus 3 · Selbstkosten und Gewinn
@@ -216,6 +287,12 @@ Der Einstandspreis einer Handelsware beträgt **55,00 €**, der Barverkaufsprei
 
 :::rechenraum 6
 Rechenraum zu Plus 3
+:::
+
+:::rechenfeld Plus 3 · Trage deine Ergebnisse ein
+Selbstkosten | 64,90 | €
+Gewinn in Euro | 24,10 | €
+Gewinn in % (zwei Nachkommastellen) | 37,13 | %
 :::
 :::
 

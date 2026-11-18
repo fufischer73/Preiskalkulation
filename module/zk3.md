@@ -37,7 +37,7 @@ kurzcheck:
 Zum Üben und Nachschlagen. In [Preisuntergrenzen II](modul:pu2) kommen Sondereinzelkosten bei der Sonderedition für die Versicherung vor.
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Eine besondere Anfrage des Segelclubs Förde e. V.
 
 :::situation Ausgangssituation: Eine besondere Anfrage
 Der **Segelclub Förde e. V.** möchte für seine Regatta **50 Rucksäcke „Business Deluxe“** mit gesticktem Vereinswappen in einem Geschenkkarton bestellen.
@@ -47,7 +47,15 @@ Der **Segelclub Förde e. V.** möchte für seine Regatta **50 Rucksäcke „Bus
 **Tobias Brandt** (Controlling): „Sondereinzelkosten also. Das Wappen: **6,50 €** je Rucksack, der Geschenkkarton: **2,20 €** je Rucksack. Rechne mit den üblichen Zuschlagssätzen.“
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–2: Angebot mit Sondereinzelkosten kalkulieren
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Alle Kalkulationsschemata dieses Lernpfads. Für diese Aufgaben: Blatt „Zuschlagskalk. zk3“.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 20 Aufgabe 1 · Angebot mit Sondereinzelkosten
 Berechne den **Angebotspreis (Listenverkaufspreis)** für **1 Rucksack** und für **50 Rucksäcke**. Runde die Zeilen je Stück auf Cent.
@@ -73,6 +81,14 @@ Die Sondereinzelkosten der Fertigung gehören zu den Fertigungskosten (auch in d
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Fertigungskosten 89,30 €, Herstellkosten 114,50 €, Selbstkosten 133,88 €.
 :::
+
+:::rechenfeld Aufgabe 1 · Trage deine Ergebnisse ein (je Stück, auf Cent gerundet)
+Fertigungskosten (FK) | 89,30 | €
+Herstellkosten | 114,50 | €
+Selbstkosten | 133,88 | €
+Listenverkaufspreis je Stück | 178,20 | €
+Listenverkaufspreis für 50 Stück | 8.910,00 | €
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 2 · Auswirkungen erläutern
@@ -83,7 +99,7 @@ Deine Erläuterung
 :::
 :::
 
-## 3. Info: Sondereinzelkosten
+## 3. Info 3: Sondereinzelkosten
 
 :::info Info 3 · Sondereinzelkosten
 **Sondereinzelkosten** sind Einzelkosten, die wegen **besonderer Produktions- oder Lieferbedingungen** nur für ein bestimmtes Produkt oder einen bestimmten Auftrag anfallen. Man rechnet sie dem Auftrag **direkt** zu, ohne Zuschlagssatz.
@@ -104,7 +120,7 @@ Das Kalkulationsschema wird erweitert:
 | = Selbstkosten | |
 :::
 
-## 4. Übung
+## 4. Übung: Sonderserie „Expedition“
 
 :::aufgabe basis 20 Übung · Sonderserie „Expedition“
 Die Montelli GmbH erstellt ein Angebot für **100 Rucksäcke der Sonderserie „Expedition“**. Vervollständige das Kalkulationsschema für die gesamte Serie (Gesamtwerte, Zeilen auf Cent gerundet).
@@ -126,9 +142,16 @@ Die Montelli GmbH erstellt ein Angebot für **100 Rucksäcke der Sonderserie „
 :::rechenraum 16
 Kalkulationsschema „Expedition“
 :::
+
+:::rechenfeld Übung · Trage deine Ergebnisse ein
+Herstellkosten | 7.230,00 | €
+Selbstkosten | 8.534,50 | €
+Barverkaufspreis | 10.070,71 | €
+Listenverkaufspreis | 10.932,16 | €
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Lackierte Spezialrucksäcke und Preisverhandlung
 
 :::aufgabe plus 20 Plus 1 · Lackierte Spezialrucksäcke
 Der Montelli GmbH liegen zur Ermittlung eines Angebotspreises diese Daten vor:
@@ -139,6 +162,13 @@ Berechne a) die Materialkosten, b) die Fertigungskosten, c) die Selbstkosten, d)
 
 :::rechenraum 14
 Rechenraum zu Plus 1
+:::
+
+:::rechenfeld Plus 1 · Trage deine Ergebnisse ein
+a) Materialkosten | 15.400 | €
+b) Fertigungskosten | 22.900 | €
+c) Selbstkosten | 47.380 | €
+d) Angebotspreis (Zielverkaufspreis) | 51.247,76 | €
 :::
 :::
 
@@ -160,6 +190,14 @@ Rechenraum zu Plus 2
 
 :::hilfe 💡 Tipp zu b)
 Rechne von hinten: Der Barverkaufspreis enthält 5 % Gewinn auf die Selbstkosten (also Selbstkosten = BVP : 1,05). Ziehe die Sondereinzelkosten des Vertriebs ab. Die verbleibenden Kosten enthalten VwGK und VtGK (zusammen 15 % der Herstellkosten).
+:::
+
+:::rechenfeld Plus 2 · Trage deine Ergebnisse ein
+a) Barverkaufspreis | 36.230,25 | €
+ba) Materialkosten | 12.100 | €
+bb) Selbstkosten | 30.000 | €
+bc) Herstellkosten | 25.000 | €
+bd) zulässige Fertigungskosten | 12.900 | €
 :::
 :::
 

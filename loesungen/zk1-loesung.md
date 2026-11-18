@@ -1,16 +1,11 @@
 ---
 titel: "Lösung · Zuschlagskalkulation I: Angebot kalkulieren"
 ---
-## Aufgabe 1 · Zeit- und Stückrechnung
-
-- **Kostenträgerzeitrechnung:** Sie erfasst die Kosten **aller** Kostenträger in einem **Abrechnungszeitraum** (z. B. einem Monat).
-- **Kostenträgerstückrechnung:** Sie kalkuliert die Selbstkosten für **ein bestimmtes Produkt oder einen bestimmten Auftrag**, um daraus den Listenverkaufspreis bzw. Angebotspreis zu ermitteln.
-
-## Aufgabe 2 · Welche Kosten zählen?
+## Aufgabe 1 · Welche Kosten zählen?
 
 Es sind **sämtliche betrieblich bedingten Kosten** zu berücksichtigen: die **Einzelkosten** (Material und Fertigungslöhne, direkt zurechenbar) und die **Gemeinkosten** (über Zuschlagssätze verteilt). Nur so deckt der Preis alle Kosten, und es bleibt ein Gewinn.
 
-## Aufgabe 3 · Angebotspreis
+## Aufgabe 2 · Angebotspreis
 
 | Position | Satz | je Stück | 40 Stück |
 | --- | --- | --- | --- |
@@ -33,7 +28,7 @@ Es sind **sämtliche betrieblich bedingten Kosten** zu berücksichtigen: die **E
 
 Rechenwege: Skonto = 149,04 € · 2 : 98 = 3,04 €. Rabatt = 152,08 € · 8 : 92 = 13,22 €.
 
-## Aufgabe 4 · Die Werte erläutern
+## Aufgabe 3 · Die Werte erläutern
 
 - **Selbstkosten (124,20 €):** Alle Kosten, die ein Rucksack verursacht (Material, Fertigung, Verwaltung, Vertrieb). Unterhalb dieses Preises macht Montelli Verlust.
 - **Barverkaufspreis (149,04 €):** Selbstkosten plus Gewinn. So viel muss Montelli bei sofortiger Zahlung mindestens erhalten.

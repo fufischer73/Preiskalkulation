@@ -1,0 +1,223 @@
+# Abschlusstest Preiskalkulation: Rechenaufgaben mit Zufallszahlen (jede Schülerin und jeder Schüler bekommt andere Zahlen).
+# Die Schüler:innen rechnen auf Papier und tragen nur die Ergebnisse ein. Alle Ergebnisse auf Cent runden, wenn nichts anderes steht.
+# Prozentrechnung in den Formeln als x * p / 100 (nicht x * 0,05): so entstehen keine Rundungsfehler bei halben Centbeträgen.
+# review: entwurf → kommt erst mit „review: freigegeben“ in den Kurs für die Klasse (mit --entwuerfe zum Ausprobieren).
+
+- id: at-01
+  modul: pu1
+  typ: zahl
+  titel: Preisuntergrenzen eines neuen Rucksacks
+  review: entwurf
+  niveau: 2
+  aufgabe: |
+    Die Montelli GmbH prüft die Einführung eines neuen Rucksacks. Die Kapazität beträgt **{{kap}} Stück** pro Jahr. Die variablen Stückkosten betragen **{{var}} €**. Die fixen Kosten betragen **{{fix}} €** pro Jahr, davon sind **{{ausp}} %** ausgabenwirksam. Der Marktpreis beträgt **{{preis}} €**.
+
+    Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    kap: {min: 2000, max: 4000, schritt: 500}
+    var: {min: 30, max: 45, schritt: 5}
+    fix: {min: 80000, max: 140000, schritt: 20000}
+    ausp: {min: 20, max: 40, schritt: 10}
+    preis: {min: 55, max: 75, schritt: 5}
+  antworten:
+    - {id: kurz, label: "kurzfristige Preisuntergrenze", formel: "var", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: mittel, label: "liquiditätsorientierte (mittelfristige) Preisuntergrenze", formel: "var + fix * ausp / 100 / kap", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: lang, label: "langfristige Preisuntergrenze", formel: "var + fix / kap", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: erg, label: "Gesamtergebnis bei Marktpreis und voller Auslastung (Verlust mit Minus)", formel: "(preis - var) * kap - fix", runden: 2, toleranz: 1, einheit: "€"}
+  loesungsweg: |
+    Kurzfristig: variable Stückkosten = {{kurz}} €. Liquiditätsorientiert: {{var}} € + ausgabenwirksame Fixkosten : Menge = {{mittel}} €. Langfristig: {{var}} € + {{fix}} € : {{kap}} = {{lang}} €. Ergebnis: ({{preis}} € − {{var}} €) · {{kap}} − {{fix}} € = {{erg}} €.
+
+- id: at-02
+  modul: pu2
+  typ: zahl
+  titel: Zusatzauftrag auf Voll- und Teilkostenbasis
+  review: entwurf
+  niveau: 3
+  aufgabe: |
+    Ein Kunde bestellt **{{menge}} Rucksäcke** mit Logostickerei zum Preis von **{{preis}} €** je Stück. Die Montelli GmbH hat noch freie Kapazität. Die Einzelkosten je Stück: Material **{{mek}} €**, Fertigungslöhne **{{fek}} €**, Sondereinzelkosten der Fertigung **{{sekf}} €**, Sondereinzelkosten des Vertriebs **{{sekv}} €**.
+
+    Normalzuschlagssätze: MGK 5 %, FGK 130 %, VwGK 10 %, VtGK 5 % (VwGK und VtGK auf die Herstellkosten). Variabel sind: 50 % der MGK, 25 % der FGK, 20 % der VwGK und 10 % der VtGK; die Einzelkosten sind zu 100 % variabel.
+
+    Rechne die Zeilen je Stück auf Cent gerundet. Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    mek: {min: 20, max: 28, schritt: 2}
+    fek: {min: 30, max: 40, schritt: 2}
+    sekf: {min: 3, max: 6, schritt: 1}
+    sekv: {min: 1, max: 3, schritt: 1}
+    menge: {min: 200, max: 400, schritt: 100}
+    preis: {min: 100, max: 120, schritt: 5}
+  antworten:
+    - {id: hk, label: "Herstellkosten je Stück", formel: "mek + round(mek * 5 / 100, 2) + fek + round(fek * 130 / 100, 2) + sekf", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: sk, label: "Selbstkosten je Stück", formel: "hk + round(hk * 10 / 100, 2) + round(hk * 5 / 100, 2) + sekv", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: vsk, label: "variable Selbstkosten je Stück", formel: "mek + round(round(mek * 5 / 100, 2) * 50 / 100, 2) + fek + round(round(fek * 130 / 100, 2) * 25 / 100, 2) + sekf + round(round(hk * 10 / 100, 2) * 20 / 100, 2) + round(round(hk * 5 / 100, 2) * 10 / 100, 2) + sekv", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: voll, label: "Gesamtergebnis auf Vollkostenbasis (Verlust mit Minus)", formel: "(preis - sk) * menge", runden: 2, toleranz: 1, einheit: "€"}
+    - {id: db, label: "Gesamtdeckungsbeitrag (Teilkostenbasis)", formel: "(preis - vsk) * menge", runden: 2, toleranz: 1, einheit: "€"}
+  loesungsweg: |
+    Herstellkosten {{hk}} €, Selbstkosten {{sk}} €, variable Selbstkosten {{vsk}} €. Vollkosten: ({{preis}} € − {{sk}} €) · {{menge}} = {{voll}} €. Teilkosten: ({{preis}} € − {{vsk}} €) · {{menge}} = {{db}} €. Der Deckungsbeitrag zeigt, ob der Auftrag das Betriebsergebnis verbessert, auch wenn er auf Vollkostenbasis Verlust bringt.
+
+- id: at-03
+  modul: zk1
+  typ: zahl
+  titel: Angebotspreis mit der Zuschlagskalkulation
+  review: entwurf
+  niveau: 2
+  aufgabe: |
+    Die Montelli GmbH kalkuliert ein Angebot. Je Stück: Materialeinzelkosten **{{mek}} €**, Fertigungseinzelkosten **{{fek}} €**. Zuschlagssätze: MGK 5 %, FGK 130 %, VwGK 10 %, VtGK 5 %. Gewinnzuschlag **{{gew}} %**, Skonto **{{skonto}} %**, Rabatt **{{rabatt}} %** (beide „im Hundert“).
+
+    Rechne die Zeilen auf Cent gerundet. Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    mek: {min: 20, max: 30, schritt: 2}
+    fek: {min: 30, max: 42, schritt: 3}
+    gew: {min: 15, max: 25, schritt: 5}
+    skonto: {min: 2, max: 3, schritt: 1}
+    rabatt: {min: 5, max: 10, schritt: 1}
+  antworten:
+    - {id: hk, label: "Herstellkosten", formel: "mek + round(mek * 5 / 100, 2) + fek + round(fek * 130 / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: sk, label: "Selbstkosten", formel: "hk + round(hk * 10 / 100, 2) + round(hk * 5 / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: bvp, label: "Barverkaufspreis", formel: "sk + round(sk * gew / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: lvp, label: "Listenverkaufspreis", formel: "bvp + round(bvp * skonto / (100 - skonto), 2) + round((bvp + round(bvp * skonto / (100 - skonto), 2)) * rabatt / (100 - rabatt), 2)", runden: 2, toleranz: 0.02, einheit: "€"}
+  loesungsweg: |
+    Herstellkosten {{hk}} €, Selbstkosten {{sk}} €, Barverkaufspreis {{bvp}} €. Skonto: Barverkaufspreis · {{skonto}} : (100 − {{skonto}}); Rabatt: Zielverkaufspreis · {{rabatt}} : (100 − {{rabatt}}). Listenverkaufspreis {{lvp}} €.
+
+- id: at-04
+  modul: zk2
+  typ: zahl
+  titel: Nachkalkulation
+  review: entwurf
+  niveau: 2
+  aufgabe: |
+    Für einen Auftrag wurde der Barverkaufspreis von **{{bvp}} €** (gesamt) vereinbart. Nach Abschluss liegen die Ist-Kosten vor: Materialeinzelkosten **{{mek}} €**, Fertigungseinzelkosten **{{fek}} €**. Ist-Zuschlagssätze: MGK **{{mgk}} %**, FGK **{{fgk}} %**, VwGK **{{vw}} %**, VtGK **{{vt}} %**.
+
+    Rechne die Zeilen auf Cent gerundet. Führe die Nachkalkulation auf Papier durch und trage die Ergebnisse ein.
+  parameter:
+    bvp: {min: 5800, max: 6200, schritt: 100}
+    mek: {min: 900, max: 1100, schritt: 50}
+    fek: {min: 1300, max: 1500, schritt: 50}
+    mgk: {min: 5, max: 7, schritt: 1}
+    fgk: {min: 125, max: 135, schritt: 5}
+    vw: {min: 9, max: 11, schritt: 1}
+    vt: {min: 4, max: 6, schritt: 1}
+  antworten:
+    - {id: hk, label: "Herstellkosten (Ist)", formel: "mek + round(mek * mgk / 100, 2) + fek + round(fek * fgk / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: sk, label: "Selbstkosten (Ist)", formel: "hk + round(hk * vw / 100, 2) + round(hk * vt / 100, 2)", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: gewinn, label: "tatsächlicher Gewinn (Verlust mit Minus)", formel: "bvp - sk", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: gp, label: "Gewinn in Prozent der Selbstkosten (zwei Nachkommastellen)", formel: "(bvp - sk) / sk * 100", runden: 2, toleranz: 0.02, einheit: "%"}
+  loesungsweg: |
+    Herstellkosten {{hk}} €, Selbstkosten {{sk}} €. Gewinn = {{bvp}} € − {{sk}} € = {{gewinn}} €; das sind {{gp}} % der Selbstkosten.
+
+- id: at-05
+  modul: fv1
+  typ: zahl
+  titel: Kostenfunktion und Stückkosten
+  review: entwurf
+  niveau: 1
+  aufgabe: |
+    Für ein Produkt der Montelli GmbH betragen die fixen Kosten **{{fix}} €** pro Monat und die variablen Stückkosten **{{var}} €**.
+
+    Berechne auf Papier und trage die Ergebnisse ein (auf Cent gerundet).
+  parameter:
+    fix: {min: 4000, max: 9000, schritt: 500}
+    var: {min: 20, max: 60, schritt: 5}
+    x1: {min: 200, max: 500, schritt: 100}
+    x2: {min: 600, max: 1000, schritt: 100}
+  antworten:
+    - {id: k1, label: "Gesamtkosten bei {{x1}} Stück", formel: "fix + var * x1", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: s1, label: "Stückkosten bei {{x1}} Stück", formel: "(fix + var * x1) / x1", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: f2, label: "fixe Stückkosten bei {{x2}} Stück", formel: "fix / x2", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: s2, label: "Stückkosten bei {{x2}} Stück", formel: "(fix + var * x2) / x2", runden: 2, toleranz: 0.01, einheit: "€"}
+  loesungsweg: |
+    Gesamtkosten = fixe Kosten + variable Stückkosten · Menge. Bei {{x1}} Stück: {{k1}} €, Stückkosten {{s1}} €. Bei {{x2}} Stück: fixe Stückkosten {{f2}} €, Stückkosten {{s2}} €. Die Stückkosten sinken mit der Menge (Fixkostendegression).
+
+- id: at-06
+  modul: fv1
+  typ: zahl
+  titel: Kosten aus zwei Monaten trennen
+  review: entwurf
+  niveau: 3
+  aufgabe: |
+    Aus der Kostenrechnung liegen diese Daten vor (variable Kosten verlaufen proportional): Im Mai wurden **{{m1}} Stück** hergestellt, die Gesamtkosten betrugen **{{k1}} €**. Im Juni wurden **{{dm}} Stück mehr** hergestellt, die Gesamtkosten stiegen um **{{dk}} €**.
+
+    Berechne auf Papier und trage die Ergebnisse ein (auf Cent gerundet).
+  parameter:
+    m1: {min: 1000, max: 2000, schritt: 500}
+    dm: {min: 1000, max: 2000, schritt: 1000}
+    k1: {min: 20000, max: 30000, schritt: 2500}
+    dk: {min: 6000, max: 12000, schritt: 2000}
+  antworten:
+    - {id: kv, label: "variable Stückkosten", formel: "dk / dm", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: kf, label: "fixe Kosten je Monat", formel: "k1 - dk / dm * m1", runden: 2, toleranz: 1, einheit: "€"}
+  loesungsweg: |
+    Die Mehrkosten entstehen nur durch die variablen Kosten: {{dk}} € : {{dm}} = {{kv}} € je Stück. Fixe Kosten = {{k1}} € − {{kv}} € · {{m1}} = {{kf}} €.
+
+- id: at-07
+  modul: db1
+  typ: zahl
+  titel: Deckungsbeitrag und Break-even
+  review: entwurf
+  niveau: 2
+  aufgabe: |
+    Ein Rucksack der Montelli GmbH wird zu **{{preis}} €** verkauft. Die variablen Stückkosten betragen **{{var}} €**, die fixen Kosten **{{fix}} €** pro Monat. Die Kapazität beträgt **{{kap}} Stück** pro Monat.
+
+    Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    preis: {min: 60, max: 100, schritt: 10}
+    var: {min: 30, max: 50, schritt: 5}
+    fix: {min: 6000, max: 15000, schritt: 3000}
+    kap: {min: 400, max: 800, schritt: 200}
+  antworten:
+    - {id: db, label: "Stückdeckungsbeitrag", formel: "preis - var", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: bep, label: "Gewinnschwelle (aufgerundet auf ganze Stück)", formel: "ceil(fix / (preis - var))", runden: 0, toleranz: 0, einheit: "Stück"}
+    - {id: ausl, label: "Auslastung an der Gewinnschwelle (zwei Nachkommastellen)", formel: "ceil(fix / (preis - var)) / kap * 100", runden: 2, toleranz: 0.05, einheit: "%"}
+    - {id: gew, label: "Gewinn bei voller Kapazität (Verlust mit Minus)", formel: "(preis - var) * kap - fix", runden: 2, toleranz: 1, einheit: "€"}
+  loesungsweg: |
+    db = {{preis}} € − {{var}} € = {{db}} €. Gewinnschwelle = {{fix}} € : {{db}} € → ab {{bep}} Stück Gewinn, das sind {{ausl}} % der Kapazität. Gewinn bei {{kap}} Stück: {{db}} € · {{kap}} − {{fix}} € = {{gew}} €.
+
+- id: at-08
+  modul: hk1
+  typ: zahl
+  titel: Handelskalkulation vorwärts
+  review: entwurf
+  niveau: 2
+  aufgabe: |
+    Die Montelli GmbH kauft eine Handelsware zum Einstandspreis von **{{e}} €**. Handlungskosten **{{hk}} %**, Gewinn **{{gew}} %**, Kundenskonto **{{skonto}} %**, Kundenrabatt **{{rabatt}} %** (Skonto und Rabatt „im Hundert“).
+
+    Rechne die Zeilen auf Cent gerundet. Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    e: {min: 3, max: 9, schritt: 0.5}
+    hk: {min: 25, max: 35, schritt: 5}
+    gew: {min: 10, max: 15, schritt: 5}
+    skonto: {min: 2, max: 3, schritt: 1}
+    rabatt: {min: 5, max: 8, schritt: 1}
+  antworten:
+    - {id: sk, label: "Selbstkosten", formel: "e + round(e * hk / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: bvp, label: "Barverkaufspreis", formel: "sk + round(sk * gew / 100, 2)", runden: 2, toleranz: 0.01, einheit: "€"}
+    - {id: lvp, label: "Listenverkaufspreis", formel: "bvp + round(bvp * skonto / (100 - skonto), 2) + round((bvp + round(bvp * skonto / (100 - skonto), 2)) * rabatt / (100 - rabatt), 2)", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: faktor, label: "Kalkulationsfaktor (vier Nachkommastellen)", formel: "lvp / e", runden: 4, toleranz: 0.001}
+  loesungsweg: |
+    Selbstkosten {{sk}} €, Barverkaufspreis {{bvp}} €, Listenverkaufspreis {{lvp}} €. Kalkulationsfaktor = {{lvp}} € : {{e}} € = {{faktor}}.
+
+- id: at-09
+  modul: hk2
+  typ: zahl
+  titel: Handelskalkulation rückwärts und Differenz
+  review: entwurf
+  niveau: 3
+  aufgabe: |
+    Die Konkurrenz verkauft eine vergleichbare Handelsware zum Listenverkaufspreis von **{{lvp}} €**. Montelli kalkuliert mit Rabatt **{{rabatt}} %**, Skonto **{{skonto}} %** (beide „vom Hundert“), Gewinn **{{gew}} %** und Handlungskosten **{{hk}} %** (beide „auf Hundert“). Der tatsächliche Einstandspreis beträgt **{{e}} €**.
+
+    Rechne die Zeilen auf Cent gerundet. Berechne auf Papier und trage die Ergebnisse ein.
+  parameter:
+    lvp: {min: 70, max: 100, schritt: 5}
+    rabatt: {min: 5, max: 8, schritt: 1}
+    skonto: {min: 2, max: 3, schritt: 1}
+    gew: {min: 20, max: 25, schritt: 5}
+    hk: {min: 15, max: 20, schritt: 5}
+    e: {min: 45, max: 60, schritt: 5}
+  antworten:
+    - {id: bvp, label: "Barverkaufspreis", formel: "lvp - round(lvp * rabatt / 100, 2) - round((lvp - round(lvp * rabatt / 100, 2)) * skonto / 100, 2)", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: sk, label: "Selbstkosten", formel: "bvp * 100 / (100 + gew)", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: emax, label: "höchster Einstandspreis", formel: "sk * 100 / (100 + hk)", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: g, label: "Gewinn in Euro beim tatsächlichen Einstandspreis (Verlust mit Minus)", formel: "bvp - (e + round(e * hk / 100, 2))", runden: 2, toleranz: 0.02, einheit: "€"}
+    - {id: gp, label: "Gewinn in Prozent der Selbstkosten (zwei Nachkommastellen)", formel: "(bvp - (e + round(e * hk / 100, 2))) / (e + round(e * hk / 100, 2)) * 100", runden: 2, toleranz: 0.05, einheit: "%"}
+  loesungsweg: |
+    Rückwärts: Barverkaufspreis {{bvp}} €, Selbstkosten {{bvp}} € : {{gew}} % aufgeschlagen = {{sk}} €, höchster Einstandspreis {{emax}} €. Differenzkalkulation: Mit dem Einstandspreis {{e}} € bleibt ein Gewinn von {{g}} € ({{gp}} % der Selbstkosten).

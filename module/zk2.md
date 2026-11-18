@@ -37,7 +37,7 @@ kurzcheck:
 Zum Üben und Nachschlagen. Du brauchst die Idee „Soll und Ist vergleichen“ später bei der Beurteilung von Aufträgen.
 :::
 
-## 1. Ausgangssituation
+## 1. Ausgangssituation: Haben wir den Gewinn wirklich erzielt?
 
 :::situation Ausgangssituation: Haben wir den Gewinn wirklich erzielt?
 Der Auftrag der Hanseatischen Bürodienst KG (40 Rucksäcke „Business Deluxe“, siehe [Zuschlagskalkulation I](modul:zk1)) ist abgewickelt. Der Barverkaufspreis betrug **149,04 € je Rucksack**, also **5.961,60 €** für 40 Stück.
@@ -47,7 +47,15 @@ Der Auftrag der Hanseatischen Bürodienst KG (40 Rucksäcke „Business Deluxe�
 **Tobias Brandt** (Controlling): „Das kannst du leicht feststellen. Die Ist-Daten des Auftrags habe ich dir zusammengestellt.“
 :::
 
-## 2. Aufgaben
+## 2. Aufgaben 1–2: Nachkalkulation durchführen und deuten
+
+:::material material/Kalkulationsschemata.pdf Schema zum Ausdrucken (PDF)
+Alle Kalkulationsschemata dieses Lernpfads. Für diese Aufgaben: Blatt „Vor- und Nachkalkulation“.
+:::
+
+:::material material/Kalkulationsschemata.xlsx Schema zum Ausfüllen am Rechner (Tabelle)
+Öffne die Datei in deiner Tabellenkalkulation (z. B. ONLYOFFICE). Eine Spalte je Aufgabe, ein Blatt je Schema.
+:::
 
 :::aufgabe basis 20 Aufgabe 1 · Nachkalkulation durchführen
 Führe auf Basis der Daten eine **Nachkalkulation** für 40 Stück durch. Berechne den tatsächlich erzielten **Gewinn**.
@@ -74,6 +82,14 @@ Rechne das Schema wie in der Vorkalkulation, aber mit den **Ist-Werten** und **I
 :::hilfe 🧮 Zwischenergebnisse zum Prüfen
 Materialkosten 1.066,56 €, Herstellkosten 4.304,16 €.
 :::
+
+:::rechenfeld Aufgabe 1 · Trage deine Ergebnisse ein
+Materialkosten (Ist) | 1.066,56 | €
+Herstellkosten (Ist) | 4.304,16 | €
+Selbstkosten (Ist) | 4.975,61 | €
+tatsächlicher Gewinn | 985,99 | €
+Gewinn in % der Selbstkosten (zwei Nachkommastellen) | 19,82 | %
+:::
 :::
 
 :::aufgabe basis 10 Aufgabe 2 · Das Ergebnis interpretieren
@@ -84,7 +100,7 @@ Deine Interpretation
 :::
 :::
 
-## 3. Info: Nachkalkulation
+## 3. Info 2: Vorkalkulation und Nachkalkulation
 
 :::info Info 2 · Nachkalkulation
 Die **Vorkalkulation** legt vor Auftragsbeginn den Preis fest. Sie rechnet mit **Normalkosten** (Durchschnittswerte aus früheren Perioden). Die **Nachkalkulation** prüft nach Abschluss des Auftrags, ob die Kosten **tatsächlich** so angefallen sind. Sie rechnet mit **Ist-Kosten** und **Ist-Zuschlagssätzen**.
@@ -94,7 +110,7 @@ Der **Barverkaufspreis** steht schon mit dem Angebot fest. Deshalb geht jede **K
 Ursachen für Abweichungen können sein: höhere Einkaufspreise, mehr Materialverbrauch, mehr Fertigungszeit oder höhere Gemeinkosten. Die Differenz zwischen Soll (Normal) und Ist nennt man **Kostenüber- bzw. Kostenunterdeckung**.
 :::
 
-## 4. Übung
+## 4. Übung: 30 Messerucksäcke
 
 :::aufgabe basis 25 Übung · 30 Messerucksäcke
 Die Montelli GmbH hat eine Anfrage über **30 Messerucksäcke**.
@@ -117,9 +133,16 @@ Zuschläge der Vorkalkulation: Gewinn 12 %, Skonto 2 %, Rabatt 5 %.
 :::rechenraum 14
 Vor- und Nachkalkulation
 :::
+
+:::rechenfeld Übung · Trage deine Ergebnisse ein
+a) Selbstkosten (Vorkalkulation) | 7.590,00 | €
+a) Listenverkaufspreis für alle 30 Stück | 9.130,83 | €
+b) Selbstkosten (Nachkalkulation) | 7.533,76 | €
+b) tatsächlicher Gewinn | 967,04 | €
+:::
 :::
 
-## 5. Plus
+## 5. Plus: Nachkalkulation der Sporttasche „Match“
 
 :::aufgabe plus 20 Plus · Nachkalkulation der Sporttasche „Match“
 Führe für die Sporttasche „Match“ aus [Zuschlagskalkulation I](modul:zk1) eine Nachkalkulation durch (je Stück) und interpretiere das Ergebnis. Der Barverkaufspreis steht mit **68,03 €** fest.
@@ -129,6 +152,11 @@ Führe für die Sporttasche „Match“ aus [Zuschlagskalkulation I](modul:zk1) 
 
 :::rechenraum 12
 Rechenraum zu Plus
+:::
+
+:::rechenfeld Plus · Trage deine Ergebnisse ein
+Selbstkosten (Ist) je Stück | 52,93 | €
+tatsächlicher Gewinn je Stück | 15,10 | €
 :::
 :::
 

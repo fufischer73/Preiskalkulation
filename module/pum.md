@@ -32,11 +32,11 @@ raster:
     erreicht: "Dein Text ist verständlich gegliedert und verwendet Fachbegriffe richtig."
     besonders_gut: "Dein Text liest sich wie ein Papier für die Geschäftsführung: kurz, klar, ohne Umwege."
 ---
-## 1. Dein Auftrag
+## 1. Dein Auftrag im Überblick
 
 In diesem Meilenstein arbeitest du allein und bringst alles zusammen: Preisuntergrenzen, Deckungsbeitrag, Teilkostenrechnung und die Frage, was neben den Zahlen noch zählt. Du schreibst eine **Empfehlung an die Geschäftsführung**.
 
-## 2. Ausgangssituation: Die Fallakte
+## 2. Ausgangssituation und Fallakte: Eigenmarken-Anfrage der Nordkap Sport GmbH
 
 :::situation Ausgangssituation: Eine Handelskette will eine Eigenmarke
 Die Montelli GmbH verkauft ihren **„Business Deluxe“** über den Fachhandel für **165,00 €** (netto). Im laufenden Jahr werden **6.600 Stück** abgesetzt. Die Fertigung ist damit nicht voll ausgelastet.
@@ -50,7 +50,7 @@ Die **Nordkap Sport GmbH**, eine Handelskette, schickt der Montelli GmbH diese A
 **Tobias Brandt** (Controlling): „Ich habe die Zahlen für dich zusammengestellt. Die Entscheidung liegt bei der Geschäftsführung. Sie will eine begründete Empfehlung.“
 :::
 
-:::info Fallakte: Zahlen der Montelli GmbH
+:::kasten Fallakte: Zahlen der Montelli GmbH
 | Angabe | Wert |
 | --- | --- |
 | Jahreskapazität | 10.000 Stück |
@@ -65,7 +65,7 @@ Die **Nordkap Sport GmbH**, eine Handelskette, schickt der Montelli GmbH diese A
 | Zahlungsziel | 60 Tage, ohne Skonto |
 :::
 
-## 3. Aufgabe
+## 3. Deine Aufgabe: Beurteile die Anfrage
 
 :::aufgabe pflicht 100 Empfehlung an die Geschäftsführung
 **Beurteile**, ob die Montelli GmbH die Anfrage der Nordkap Sport GmbH annehmen sollte. Schreibe dazu eine **begründete Empfehlung an die Geschäftsführung** (höchstens zwei Seiten).
@@ -88,12 +88,9 @@ Deine Empfehlung muss ohne Rückfragen verständlich sein. Die Geschäftsführun
 5. **Entscheidung und Bedingungen:** Was empfiehlst du am Ende? Gibt es ein Gegenangebot?
 :::
 
-:::hilfe 💡 Tipp zu den Zahlen
-Rechne den Stückdeckungsbeitrag des Auftrags mit den Sondereinzelkosten. Der Stickrahmen fällt nur für diesen Auftrag an. Denke auch an die Kapazität und an das Zahlungsziel.
-:::
 :::
 
-## 4. Abgabe und Bewertung
+## 4. Bewertung und Abgabe
 
 Hier siehst du, worauf es ankommt, **bevor** du beginnst:
 
