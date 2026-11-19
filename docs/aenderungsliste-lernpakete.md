@@ -1,6 +1,6 @@
 # Preiskalkulation: Lernpakete austauschen (schonend)
 
-Stand: 19.11.2026 · für BGW24a · Moodle 4.5
+Stand: 19.11.2026 · Moodle 4.5
 
 ## 1. So tauschst du die Pakete aus
 

@@ -1,4 +1,4 @@
-# Preiskalkulation – Lernpfad (BGW24a, Jahrgang 13)
+# Preiskalkulation – Lernpfad (Jahrgang 13)
 
 Lernpfad zu **Absatzprozesse › Preispolitik** mit der Modellfirma **Montelli GmbH**. Kern ist die **Bestimmung von
 Preisuntergrenzen** (Lernsituation 15). Dazu kommen Wiederholungen (Zuschlagskalkulation, fixe und variable Kosten,

@@ -1,4 +1,4 @@
-# Kursbeschreibung – Preiskalkulation (BGW24a, Jahrgang 13, Absatzprozesse › Preispolitik)
+# Kursbeschreibung – Preiskalkulation (Jahrgang 13, Absatzprozesse › Preispolitik)
 # Aufbau und alle Felder: referenzen/schema.md im Lernpfad-Baukasten
 
 titel: Preiskalkulation – Preisuntergrenzen bestimmen
@@ -6,7 +6,7 @@ kurzname: preiskalkulation
 ueberschrift: Preisuntergrenzen bestimmen – mit der Montelli GmbH
 untertitel: Bis wohin darf ein Unternehmen seinen Preis senken, und wann lohnt sich ein Auftrag trotz niedrigem Preis? Du entscheidest als Mitarbeiter:in der Montelli GmbH – und wiederholst dafür Kalkulation, Kostenarten und Deckungsbeitrag.
 badges: [Absatzprozesse, Preispolitik, 3 Stufen · ca. 20 Std.]
-fusszeile: BBZ Rendsburg-Eckernförde · BGW24a · Stand 11/2026
+fusszeile: BBZ Rendsburg-Eckernförde · Stand 11/2026
 logo: material/logo-bbz.png
 design: bbz-blau
 sprache: de
@@ -59,7 +59,6 @@ stufen:
 
 pdf:
   kopf: [Absatzprozesse, Preispolitik]
-  links: BGW24a
   rechts: BRC
   logo: material/logo-bbz.png
 

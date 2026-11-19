@@ -78,7 +78,7 @@ def seite_einrichten(ws, hoch):
     ws.print_options.horizontalCentered = True
     ws.oddFooter.center.text = "&A · Seite &P von &N"
     ws.oddHeader.left.text = "Absatzprozesse · Preispolitik"
-    ws.oddHeader.right.text = "BGW24a · BRC"
+    ws.oddHeader.right.text = "BRC"
 
 
 def format_wahl(anzahl_spalten, anzahl_zeilen):
