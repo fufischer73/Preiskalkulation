@@ -1,7 +1,7 @@
 ---
 titel: "Meilenstein: Eigenmarken-Anfrage beurteilen"
 minuten: 135
-review: entwurf
+review: freigegeben
 datei: pum.html
 meilenstein: true
 lernziele:
@@ -16,12 +16,12 @@ abgabe:
   dateitypen: .docx,.odt,.pdf
   dateien: 1
 raster:
-  - kriterium: Zahlengrundlage
-    erreicht: "Du berechnest Deckungsbeitrag und Ergebnis des Auftrags richtig und berücksichtigst die Sondereinzelkosten und die einmaligen Kosten."
-    besonders_gut: "Du zeigst klar, wie sich das Gesamtergebnis der Montelli GmbH mit und ohne Auftrag verändert."
-  - kriterium: Preisuntergrenzen
-    erreicht: "Du bestimmst die kurzfristige und die langfristige Preisuntergrenze richtig und ordnest den angebotenen Preis ein."
-    besonders_gut: "Du bestimmst auch die liquiditätsorientierte Preisuntergrenze und erklärst, wie die Auslastung die langfristige Untergrenze verändert."
+  - kriterium: Fachliche Grundlage
+    erreicht: "Du stützt dein Urteil auf passende Kennzahlen aus dem Fallmaterial und rechnest sie richtig."
+    besonders_gut: "Du wählst die aussagekräftigsten Kennzahlen aus und zeigst nachvollziehbar, was sie für das Gesamtergebnis der Montelli GmbH bedeuten."
+  - kriterium: Einordnung des Preises
+    erreicht: "Du ordnest den angebotenen Preis fachlich richtig ein."
+    besonders_gut: "Du berücksichtigst, wie Zeithorizont und Auslastung die Einordnung verändern."
   - kriterium: Abwägung
     erreicht: "Du nennst Argumente dafür und dagegen, auch betriebswirtschaftliche Nebenwirkungen (z. B. Preisimage, Händler, Liquidität, Kapazität)."
     besonders_gut: "Du gewichtest die Argumente und zeigst, welche am stärksten wiegen."

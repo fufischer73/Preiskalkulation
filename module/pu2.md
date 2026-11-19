@@ -1,7 +1,7 @@
 ---
 titel: "Preisuntergrenzen II: Unausgelastete Kapazitäten – Zusatzauftrag annehmen?"
 minuten: 150
-review: entwurf
+review: freigegeben
 datei: pu2.html
 lernziele:
   - Selbstkosten für einen Auftrag mit Sondereinzelkosten kalkulieren,

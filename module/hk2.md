@@ -1,7 +1,7 @@
 ---
 titel: "Handelskalkulation II: Rückwärts- und Differenzkalkulation"
 minuten: 70
-review: entwurf
+review: freigegeben
 datei: hk2.html
 lernziele:
   - den höchsten Einstandspreis bei vorgegebenem Marktpreis mit der Rückwärtskalkulation berechnen,

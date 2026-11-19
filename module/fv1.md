@@ -1,7 +1,7 @@
 ---
 titel: "Fixe und variable Kosten"
 minuten: 90
-review: entwurf
+review: freigegeben
 datei: fv1.html
 lernziele:
   - fixe und variable Kosten unterscheiden und Beispiele nennen,

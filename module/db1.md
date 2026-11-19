@@ -1,7 +1,7 @@
 ---
 titel: "Deckungsbeitrag und Break-even"
 minuten: 100
-review: entwurf
+review: freigegeben
 datei: db1.html
 lernziele:
   - Stückdeckungsbeitrag und Gesamtdeckungsbeitrag berechnen,

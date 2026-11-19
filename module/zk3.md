@@ -1,7 +1,7 @@
 ---
 titel: "Zuschlagskalkulation III: Sondereinzelkosten"
 minuten: 50
-review: entwurf
+review: freigegeben
 datei: zk3.html
 lernziele:
   - Sondereinzelkosten der Fertigung und des Vertriebs unterscheiden und Beispiele nennen,

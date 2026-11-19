@@ -1,7 +1,7 @@
 ---
 titel: "Zuschlagskalkulation I: Angebot kalkulieren"
 minuten: 50
-review: entwurf
+review: freigegeben
 datei: zk1.html
 lernziele:
   - mit der Zuschlagskalkulation Selbstkosten und Listenverkaufspreis berechnen,

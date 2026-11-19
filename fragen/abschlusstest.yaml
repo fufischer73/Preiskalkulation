@@ -1,13 +1,13 @@
 # Abschlusstest Preiskalkulation: Rechenaufgaben mit Zufallszahlen (jede Schülerin und jeder Schüler bekommt andere Zahlen).
 # Die Schüler:innen rechnen auf Papier und tragen nur die Ergebnisse ein. Alle Ergebnisse auf Cent runden, wenn nichts anderes steht.
 # Prozentrechnung in den Formeln als x * p / 100 (nicht x * 0,05): so entstehen keine Rundungsfehler bei halben Centbeträgen.
-# review: entwurf → kommt erst mit „review: freigegeben“ in den Kurs für die Klasse (mit --entwuerfe zum Ausprobieren).
+# review: freigegeben (von der Lehrkraft am 19.11.2026 freigegeben); „entwurf“ kommt nur mit --entwuerfe in den Kurs.
 
 - id: at-01
   modul: pu1
   typ: zahl
   titel: Preisuntergrenzen eines neuen Rucksacks
-  review: entwurf
+  review: freigegeben
   niveau: 2
   aufgabe: |
     Die Montelli GmbH prüft die Einführung eines neuen Rucksacks. Die Kapazität beträgt **{{kap}} Stück** pro Jahr. Die variablen Stückkosten betragen **{{var}} €**. Die fixen Kosten betragen **{{fix}} €** pro Jahr, davon sind **{{ausp}} %** ausgabenwirksam. Der Marktpreis beträgt **{{preis}} €**.
@@ -31,7 +31,7 @@
   modul: pu2
   typ: zahl
   titel: Zusatzauftrag auf Voll- und Teilkostenbasis
-  review: entwurf
+  review: freigegeben
   niveau: 3
   aufgabe: |
     Ein Kunde bestellt **{{menge}} Rucksäcke** mit Logostickerei zum Preis von **{{preis}} €** je Stück. Die Montelli GmbH hat noch freie Kapazität. Die Einzelkosten je Stück: Material **{{mek}} €**, Fertigungslöhne **{{fek}} €**, Sondereinzelkosten der Fertigung **{{sekf}} €**, Sondereinzelkosten des Vertriebs **{{sekv}} €**.
@@ -59,7 +59,7 @@
   modul: zk1
   typ: zahl
   titel: Angebotspreis mit der Zuschlagskalkulation
-  review: entwurf
+  review: freigegeben
   niveau: 2
   aufgabe: |
     Die Montelli GmbH kalkuliert ein Angebot. Je Stück: Materialeinzelkosten **{{mek}} €**, Fertigungseinzelkosten **{{fek}} €**. Zuschlagssätze: MGK 5 %, FGK 130 %, VwGK 10 %, VtGK 5 %. Gewinnzuschlag **{{gew}} %**, Skonto **{{skonto}} %**, Rabatt **{{rabatt}} %** (beide „im Hundert“).
@@ -83,7 +83,7 @@
   modul: zk2
   typ: zahl
   titel: Nachkalkulation
-  review: entwurf
+  review: freigegeben
   niveau: 2
   aufgabe: |
     Für einen Auftrag wurde der Barverkaufspreis von **{{bvp}} €** (gesamt) vereinbart. Nach Abschluss liegen die Ist-Kosten vor: Materialeinzelkosten **{{mek}} €**, Fertigungseinzelkosten **{{fek}} €**. Ist-Zuschlagssätze: MGK **{{mgk}} %**, FGK **{{fgk}} %**, VwGK **{{vw}} %**, VtGK **{{vt}} %**.
@@ -109,7 +109,7 @@
   modul: fv1
   typ: zahl
   titel: Kostenfunktion und Stückkosten
-  review: entwurf
+  review: freigegeben
   niveau: 1
   aufgabe: |
     Für ein Produkt der Montelli GmbH betragen die fixen Kosten **{{fix}} €** pro Monat und die variablen Stückkosten **{{var}} €**.
@@ -132,7 +132,7 @@
   modul: fv1
   typ: zahl
   titel: Kosten aus zwei Monaten trennen
-  review: entwurf
+  review: freigegeben
   niveau: 3
   aufgabe: |
     Aus der Kostenrechnung liegen diese Daten vor (variable Kosten verlaufen proportional): Im Mai wurden **{{m1}} Stück** hergestellt, die Gesamtkosten betrugen **{{k1}} €**. Im Juni wurden **{{dm}} Stück mehr** hergestellt, die Gesamtkosten stiegen um **{{dk}} €**.
@@ -153,7 +153,7 @@
   modul: db1
   typ: zahl
   titel: Deckungsbeitrag und Break-even
-  review: entwurf
+  review: freigegeben
   niveau: 2
   aufgabe: |
     Ein Rucksack der Montelli GmbH wird zu **{{preis}} €** verkauft. Die variablen Stückkosten betragen **{{var}} €**, die fixen Kosten **{{fix}} €** pro Monat. Die Kapazität beträgt **{{kap}} Stück** pro Monat.
@@ -176,7 +176,7 @@
   modul: hk1
   typ: zahl
   titel: Handelskalkulation vorwärts
-  review: entwurf
+  review: freigegeben
   niveau: 2
   aufgabe: |
     Die Montelli GmbH kauft eine Handelsware zum Einstandspreis von **{{e}} €**. Handlungskosten **{{hk}} %**, Gewinn **{{gew}} %**, Kundenskonto **{{skonto}} %**, Kundenrabatt **{{rabatt}} %** (Skonto und Rabatt „im Hundert“).
@@ -200,7 +200,7 @@
   modul: hk2
   typ: zahl
   titel: Handelskalkulation rückwärts und Differenz
-  review: entwurf
+  review: freigegeben
   niveau: 3
   aufgabe: |
     Die Konkurrenz verkauft eine vergleichbare Handelsware zum Listenverkaufspreis von **{{lvp}} €**. Montelli kalkuliert mit Rabatt **{{rabatt}} %**, Skonto **{{skonto}} %** (beide „vom Hundert“), Gewinn **{{gew}} %** und Handlungskosten **{{hk}} %** (beide „auf Hundert“). Der tatsächliche Einstandspreis beträgt **{{e}} €**.

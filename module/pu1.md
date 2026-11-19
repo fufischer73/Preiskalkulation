@@ -1,7 +1,7 @@
 ---
 titel: "Preisuntergrenzen I: Sind unsere neuen Daypacks zu teuer?"
 minuten: 105
-review: entwurf
+review: freigegeben
 datei: pu1.html
 lernziele:
   - das Preisproblem der Montelli GmbH erklären und den Begriff „Marktpreis“ einordnen,

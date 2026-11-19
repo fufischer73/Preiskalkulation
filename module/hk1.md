@@ -1,7 +1,7 @@
 ---
 titel: "Handelskalkulation I: Vorwärtskalkulation"
 minuten: 80
-review: entwurf
+review: freigegeben
 datei: hk1.html
 lernziele:
   - Eigenerzeugnisse und Handelswaren unterscheiden und Handlungskosten erklären,

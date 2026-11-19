@@ -1,7 +1,7 @@
 ---
 titel: "Zuschlagskalkulation II: Nachkalkulation"
 minuten: 55
-review: entwurf
+review: freigegeben
 datei: zk2.html
 lernziele:
   - Vor- und Nachkalkulation unterscheiden,
