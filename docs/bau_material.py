@@ -65,6 +65,33 @@ BLAETTER = [
 ]
 
 
+def seite_einrichten(ws, hoch):
+    """Ein Blatt = eine Seite, Hoch- oder Querformat."""
+    ws.page_setup.orientation = "portrait" if hoch else "landscape"
+    ws.page_setup.paperSize = ws.PAPERSIZE_A4
+    ws.page_setup.fitToWidth = 1
+    ws.page_setup.fitToHeight = 1
+    ws.sheet_properties.pageSetUpPr.fitToPage = True
+    ws.page_margins.left = ws.page_margins.right = 0.5
+    ws.page_margins.top = 0.8
+    ws.page_margins.bottom = 0.7
+    ws.print_options.horizontalCentered = True
+    ws.oddFooter.center.text = "&A · Seite &P von &N"
+    ws.oddHeader.left.text = "Absatzprozesse · Preispolitik"
+    ws.oddHeader.right.text = "BGW24a · BRC"
+
+
+def format_wahl(anzahl_spalten, anzahl_zeilen):
+    """→ (hochformat, Breite Beschriftung, Breite je Spalte, Zeilenhöhe, Schrift). Hochformat bis vier Spalten: größere Zeilen und Schrift."""
+    if anzahl_spalten <= 4:
+        label = 38
+        spalte = min(22, (104 - label) // max(anzahl_spalten, 1))
+        hoehe = max(26, min(42, 560 // (anzahl_zeilen + 2)))
+        return True, label, spalte, hoehe, 12
+    hoehe = max(20, min(30, 330 // (anzahl_zeilen + 2)))
+    return False, 44, 16, hoehe, 11
+
+
 def tabelle_blatt(ws, titel, hinweis, zeilen, spalten):
     ws["A1"] = titel
     ws["A1"].font = Font(bold=True, size=14, color=BLAU)
@@ -74,6 +101,10 @@ def tabelle_blatt(ws, titel, hinweis, zeilen, spalten):
     ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=max(2, min(len(spalten) + 1, 8)))
     ws.row_dimensions[2].height = 32
     kopf = 4
+    hoch, label_breite, spalten_breite, zeilen_hoehe, zeilen_schrift = format_wahl(len(spalten), len(zeilen))
+    seite_einrichten(ws, hoch)
+    if hoch:
+        ws["A1"].font = Font(bold=True, size=16, color=BLAU)
     ws.cell(row=kopf, column=1, value="Position").font = Font(bold=True, color="FFFFFF")
     ws.cell(row=kopf, column=1).fill = PatternFill("solid", fgColor=BLAU)
     ws.cell(row=kopf, column=1).border = RAND
@@ -83,14 +114,15 @@ def tabelle_blatt(ws, titel, hinweis, zeilen, spalten):
         c.fill = PatternFill("solid", fgColor=BLAU)
         c.alignment = Alignment(wrap_text=True, horizontal="center", vertical="center")
         c.border = RAND
-        ws.column_dimensions[get_column_letter(j)].width = 16
+        ws.column_dimensions[get_column_letter(j)].width = spalten_breite
     ws.row_dimensions[kopf].height = 44
-    ws.column_dimensions["A"].width = 44
+    ws.column_dimensions["A"].width = label_breite
     for i, (text, art) in enumerate(zeilen, kopf + 1):
         c = ws.cell(row=i, column=1, value=text)
         c.data_type = "s"   # Beschriftungen wie „= Materialkosten“ sind Text, keine Formel
         c.border = RAND
-        c.font = Font(bold=(art == "s"))
+        c.font = Font(bold=(art == "s"), size=zeilen_schrift)
+        c.alignment = Alignment(vertical="center")
         c.fill = PatternFill("solid", fgColor=HELL if art == "s" else GRAU)
         for j in range(2, len(spalten) + 2):
             e = ws.cell(row=i, column=j)
@@ -98,17 +130,8 @@ def tabelle_blatt(ws, titel, hinweis, zeilen, spalten):
             e.number_format = "#,##0.00"
             if art == "s":
                 e.fill = PatternFill("solid", fgColor=HELL)
-        ws.row_dimensions[i].height = 20
+        ws.row_dimensions[i].height = zeilen_hoehe
     ws.freeze_panes = ws.cell(row=kopf + 1, column=2)
-    ws.page_setup.orientation = "landscape"
-    ws.page_setup.paperSize = ws.PAPERSIZE_A4
-    ws.page_setup.fitToWidth = 1
-    ws.page_setup.fitToHeight = 0
-    ws.sheet_properties.pageSetUpPr.fitToPage = True
-    ws.print_title_rows = f"{kopf}:{kopf}"
-    ws.oddFooter.center.text = "&A · Seite &P von &N"
-    ws.oddHeader.left.text = "Absatzprozesse · Preispolitik"
-    ws.oddHeader.right.text = "BGW24a · BRC"
 
 
 def freie_tabelle(ws, titel, hinweis, kopf, zeilen_beschriftung, spalten_breite=15):
@@ -134,15 +157,9 @@ def freie_tabelle(ws, titel, hinweis, kopf, zeilen_beschriftung, spalten_breite=
             e = ws.cell(row=i, column=j)
             e.border = RAND
             e.number_format = "#,##0.00"
-        ws.row_dimensions[i].height = 20
-    ws.page_setup.orientation = "landscape"
-    ws.page_setup.paperSize = ws.PAPERSIZE_A4
-    ws.page_setup.fitToWidth = 1
-    ws.page_setup.fitToHeight = 0
-    ws.sheet_properties.pageSetUpPr.fitToPage = True
-    ws.oddFooter.center.text = "&A · Seite &P von &N"
-    ws.oddHeader.left.text = "Absatzprozesse · Preispolitik"
-    ws.oddHeader.right.text = "BGW24a · BRC"
+        ws.row_dimensions[i].height = 28
+    hoch, _, _, hoehe, _ = format_wahl(len(kopf) - 1, len(zeilen_beschriftung))
+    seite_einrichten(ws, hoch)
 
 
 def baue(ordner):
